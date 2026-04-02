@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic-settings
+langchain-core
+langchain-huggingface
+langchain-openai
+langchain-qdrant
+qdrant-client
+openai
+python-dotenv
+sentence-transformers
+fastembed
+langgraph

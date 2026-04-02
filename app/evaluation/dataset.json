@@ -1,0 +1,32 @@
+[
+  {
+    "category": "General Knowledge",
+    "question": "Was ist ELSTER und wofür wird es verwendet?",
+    "ground_truth": "ELSTER (Elektronische Steuererklärung) ist ein Projekt der deutschen Steuerverwaltungen aller Länder und des Bundes zur Abwicklung der Steuererklärungen und Steueranmeldungen über das Internet. Es ermöglicht Bürgern, Arbeitgebern und Unternehmern, ihre Steuerdaten sicher und papierlos an das Finanzamt zu übermitteln."
+  },
+  {
+    "category": "Authentication",
+    "question": "Wie registriere ich mich für Mein ELSTER?",
+    "ground_truth": "Für die Registrierung bei 'Mein ELSTER' benötigen Sie in der Regel Ihre steuerliche Identifikationsnummer (IdNr.) oder Steuernummer. Nach Eingabe Ihrer Daten im Portal erhalten Sie eine Aktivierungs-ID per E-Mail und einen Aktivierungs-Code per Post. Mit beiden zusammen können Sie Ihr Zertifikat (Zertifikatsdatei) erstellen, das künftig als Login dient."
+  },
+  {
+    "category": "Troubleshooting",
+    "question": "Ich habe mein Passwort für meine ELSTER-Zertifikatsdatei vergessen. Was kann ich tun?",
+    "ground_truth": "Wenn Sie das Passwort für Ihre Zertifikatsdatei vergessen haben, gibt es keine Möglichkeit, dieses wiederherzustellen. Das Passwort ist nur Ihnen bekannt. Sie müssen Ihr Benutzerkonto löschen und sich anschließend neu bei Mein ELSTER registrieren. Alternativ können Sie den Zugang erneuern, wenn Sie eine E-Mail-Adresse hinterlegt haben und noch Zugriff darauf haben."
+  },
+  {
+    "category": "Forms & Deadlines",
+    "question": "Welches Formular muss ich in ELSTER ausfüllen, um die Anlage N einzureichen?",
+    "ground_truth": "Die Anlage N (Einkünfte aus nichtselbständiger Arbeit) ist Teil der jährlichen Einkommensteuererklärung. In 'Mein ELSTER' wählen Sie das Hauptformular 'Einkommensteuererklärung (ESt 1 A)' aus. Innerhalb dieses Formulars können Sie über die Menüführung auf der linken Seite die 'Anlage N' hinzufügen, um Ihren Arbeitslohn und Ihre Werbungskosten einzutragen."
+  },
+  {
+    "category": "Business/Freelance",
+    "question": "Muss ich als Kleinunternehmer meine Umsatzsteuervoranmeldung über ELSTER machen?",
+    "ground_truth": "Kleinunternehmer im Sinne des § 19 UStG erheben keine Umsatzsteuer und dürfen diese auch nicht in Rechnungen ausweisen. Daher sind sie grundsätzlich von der Verpflichtung befreit, regelmäßige Umsatzsteuervoranmeldungen abzugeben. Sie müssen jedoch einmal jährlich eine Umsatzsteuerjahreserklärung über ELSTER übermitteln."
+  },
+  {
+    "category": "Technical Requirements",
+    "question": "Brauche ich eine spezielle Software, um Mein ELSTER zu nutzen?",
+    "ground_truth": "Die Nutzung des Portals 'Mein ELSTER' erfordert keine Installation einer speziellen Steuersoftware. Das Programm läuft vollständig webbasiert in Ihrem Internetbrowser. Sie benötigen lediglich einen aktuellen Browser (wie Chrome, Firefox, Safari oder Edge), eine Internetverbindung und Ihre Zertifikatsdatei nebst Passwort für den Login."
+  }
+]
