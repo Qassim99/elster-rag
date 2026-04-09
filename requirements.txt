@@ -11,3 +11,5 @@ python-dotenv
 sentence-transformers
 fastembed
 langgraph
+rouge-score
+nltk

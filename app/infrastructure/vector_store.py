@@ -50,17 +50,17 @@ class QdrantRepository:
             **self.connect_kwargs,
         )
 
-    # def ingest_documents(self, docs: list, use_local_dense: bool):
-    #     """Write documents into Qdrant with both dense and sparse embeddings."""
-    #     self.vectorstore = QdrantVectorStore.from_documents(
-    #         documents=docs,
-    #         embedding=self._get_dense_embeddings(use_local=use_local_dense),
-    #         sparse_embedding=self._get_sparse_embeddings(),
-    #         collection_name=self.settings.collection_name,
-    #         retrieval_mode=RetrievalMode.HYBRID,
-    #         force_recreate=True,
-    #         **self.connect_kwargs,
-    #     )
+    def ingest_documents(self, docs: list, use_local_dense: bool):
+        """Write documents into Qdrant with both dense and sparse embeddings."""
+        self.vectorstore = QdrantVectorStore.from_documents(
+            documents=docs,
+            embedding=self._get_dense_embeddings(use_local=use_local_dense),
+            sparse_embedding=self._get_sparse_embeddings(),
+            collection_name=self.settings.collection_name,
+            retrieval_mode=RetrievalMode.HYBRID,
+            force_recreate=True,
+            **self.connect_kwargs,
+        )
 
     # using Reciprocal Rank Fusion (RRF) to compine dense and sparse results in hybrid search
     def hybrid_search(self, query: str, top_k: int = 3):
