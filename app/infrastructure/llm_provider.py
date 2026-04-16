@@ -2,8 +2,9 @@ from openai import OpenAI
 
 
 class LLMProvider:
-    def __init__(self, settings):
+    def __init__(self, settings, is_evaluation: bool = False):
         self.settings = settings
+        self.is_evaluation = is_evaluation
         self.client = None
         if settings.llm_api_key:
             self.client = OpenAI(
@@ -22,7 +23,12 @@ class LLMProvider:
     ):
         if not self.client:
             raise RuntimeError("LLM Client is not initialized (missing API key).")
-        model = model or self.settings.llm_model
+
+        if self.is_evaluation:
+            temperature = 0.0  # Force deterministic output during evaluation
+            model = model or self.settings.llm_evaluator_model
+        else:
+            model = model or self.settings.llm_model
         response = self.client.chat.completions.create(
             model=model,
             messages=messages,

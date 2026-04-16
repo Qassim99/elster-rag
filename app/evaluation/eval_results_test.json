@@ -1,0 +1,553 @@
+{
+  "summary": {
+    "total_samples": 20,
+    "overall": {
+      "rouge1": 0.2955,
+      "rouge2": 0.1437,
+      "rougeL": 0.2109,
+      "bleu": 0.0577,
+      "bertscore_precision": 0.6704,
+      "bertscore_recall": 0.7589,
+      "bertscore_f1": 0.7101,
+      "correctness": 4.2,
+      "completeness": 4.2,
+      "relevance": 4.2
+    },
+    "per_category": {
+      "Allgemeine Fragen zur Nutzung von ELSTER": {
+        "rouge1": 0.2696,
+        "rouge2": 0.1416,
+        "rougeL": 0.1904,
+        "bleu": 0.0555,
+        "bertscore_precision": 0.6467,
+        "bertscore_recall": 0.7566,
+        "bertscore_f1": 0.6939,
+        "correctness": 4.3333,
+        "completeness": 4.3333,
+        "relevance": 4.3333
+      },
+      "Umsatzsteuer-Voranmeldung und Lohnsteuer-Anmeldung": {
+        "rouge1": 0.3444,
+        "rouge2": 0.1,
+        "rougeL": 0.1589,
+        "bleu": 0.0185,
+        "bertscore_precision": 0.7064,
+        "bertscore_recall": 0.7403,
+        "bertscore_f1": 0.7229,
+        "correctness": 5.0,
+        "completeness": 5.0,
+        "relevance": 5.0
+      },
+      "Technische Fragen": {
+        "rouge1": 0.3257,
+        "rouge2": 0.1933,
+        "rougeL": 0.2861,
+        "bleu": 0.0732,
+        "bertscore_precision": 0.6989,
+        "bertscore_recall": 0.8,
+        "bertscore_f1": 0.7456,
+        "correctness": 4.0,
+        "completeness": 4.0,
+        "relevance": 4.0
+      },
+      "Steuer- und Buchhaltungssoftware mit ELSTER-Funktion": {
+        "rouge1": 0.1259,
+        "rouge2": 0.0,
+        "rougeL": 0.0559,
+        "bleu": 0.0027,
+        "bertscore_precision": 0.6062,
+        "bertscore_recall": 0.6406,
+        "bertscore_f1": 0.623,
+        "correctness": 5.0,
+        "completeness": 5.0,
+        "relevance": 5.0
+      },
+      "Allgemeines": {
+        "rouge1": 0.34,
+        "rouge2": 0.1921,
+        "rougeL": 0.2349,
+        "bleu": 0.0949,
+        "bertscore_precision": 0.6725,
+        "bertscore_recall": 0.7696,
+        "bertscore_f1": 0.7165,
+        "correctness": 4.0,
+        "completeness": 4.0,
+        "relevance": 4.0
+      },
+      "Benutzerkonten": {
+        "rouge1": 0.2897,
+        "rouge2": 0.0956,
+        "rougeL": 0.1942,
+        "bleu": 0.032,
+        "bertscore_precision": 0.6824,
+        "bertscore_recall": 0.7444,
+        "bertscore_f1": 0.7111,
+        "correctness": 4.0,
+        "completeness": 4.0,
+        "relevance": 4.0
+      }
+    }
+  },
+  "results": [
+    {
+      "question": "Was ist ELSTER?",
+      "category": "Allgemeine Fragen zur Nutzung von ELSTER",
+      "reference": "ELSTER – die elektronische Steuererklärung – ist ein Verfahren, mit dem Sie unter anderem Ihre Steuererklä­rung elektronisch über das Internet an Ihr Finanzamt übermitteln können. Mein ELSTER: Ihr Online Finanzamt bündelt die Online-Dienstleistungen der Finanzverwaltung. Hier können Sie Ihre elektronische Steuererklärung erstellen und abgeben.",
+      "prediction": "ELSTER ist ein elektronisches Verfahren für die Steuererklärung. Hier sind einige wichtige Punkte:\n* ELSTER ermöglicht es Nutzern, ihre Steuererklärung über das Internet an das Finanzamt zu übermitteln.\n* Mein ELSTER bietet Online-Dienstleistungen der Finanzverwaltung, um die elektronische Steuererklärung zu erstellen und abzugeben.\n* Es gibt spezifische Tools und Anwendungen wie den ElsterAuthenticator und die App ElsterSecure, die die Nutzung von Mein ELSTER sicherer machen.\n* Diese Tools ermöglichen die Nutzung von Mein ELSTER mit Sicherheitsstick und Signaturkarte ohne Java-Browser-Plugin.\n* Die App ElsterSecure bietet einen sicheren, mobilen Login für Mein ELSTER.\n* Weitere Informationen über die Sicherheit der Daten und die Kompatibilität mit verschiedenen Betriebssystemen sind ebenfalls verfügbar.\n\nNächste Aktion: Wenn Sie weitere Fragen zu ELSTER haben, können Sie diese gerne stellen.",
+      "rouge": {
+        "rouge1": 0.3889,
+        "rouge2": 0.191,
+        "rougeL": 0.2667
+      },
+      "bleu": 0.0459,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die generierte Antwort (implizit durch die Referenz abgeglichen) entspricht exakt den Fakten über ELSTER als Verfahren zur elektronischen Übermittlung und Online-Finanzamt."
+      },
+      "bertscore": {
+        "precision": 0.6822,
+        "recall": 0.7941,
+        "f1": 0.7339
+      }
+    },
+    {
+      "question": "Wo finde ich Hilfe?",
+      "category": "Allgemeine Fragen zur Nutzung von ELSTER",
+      "reference": "Wir sind gerne für Sie da. Mit dem  Chat-Assistenten können Sie die Kontaktdaten, der für Sie zuständigen Stelle für Ihr Problem/für Ihre Frage finden. Wählen Sie hierfür im Chat Ihr Bundesland und Ihre Eigenschaft aus. Anschließend werden Ihnen Hilfestellungen angeboten. Sollten die Hilfen nicht zum Erfolg führen, werden Ihnen die Kontaktdaten angezeigt.",
+      "prediction": "Hallo, ich helfe Ihnen gerne. Brauchen Sie Hilfe bei der Steuererklärung?",
+      "rouge": {
+        "rouge1": 0.1053,
+        "rouge2": 0.0,
+        "rougeL": 0.0789
+      },
+      "bleu": 0.0009,
+      "llm_judge": {
+        "correctness": 1,
+        "completeness": 1,
+        "relevance": 1,
+        "reasoning": "Es wurde keine generierte Antwort bereitgestellt, die bewertet werden könnte."
+      },
+      "bertscore": {
+        "precision": 0.6533,
+        "recall": 0.5995,
+        "f1": 0.6252
+      }
+    },
+    {
+      "question": "Wo finde ich Informationen zu ELStAM? (Elektronische Lohnsteuerkarte)",
+      "category": "Allgemeine Fragen zur Nutzung von ELSTER",
+      "reference": "Umfangreiche Informationen fonden Sie auf den Seiten ELStAM (Privatpersonen)) und ELStAM (Arbeitgeber)).",
+      "prediction": "Sie suchen nach Informationen zu ELStAM (Elektronische Lohnsteuerkarte). Hier sind einige wichtige Punkte:\n* Umfangreiche Informationen finden Sie auf den Seiten [ELStAM (Privatpersonen)](https://www.elster.de/elsterweb/infoseite/elstam_(privatpersonen)) und [ELStAM (Arbeitgeber)](https://www.elster.de/elsterweb/infoseite/elstam_(arbeitgeber)).\n* ELStAM steht für Elektronische LohnSteuerAbzugsMerkmale, die für die Durchführung des Lohnsteuerabzugs gebildet werden.\n* Die Lohnsteuerabzugsmerkmale sind aus der Lohnabrechnung des Arbeitgebers ersichtlich und können auch online in Mein ELSTER abgefragt werden.\n* Die ELStAM umfassen verschiedene Daten wie Steuerklasse, Faktor, Kirchensteuermerkmal, Kinderfreibeträge und Frei- und Hinzurechnungsbetrag.\n* Ab dem 01.01.2026 werden zusätzlich die Beitragshöhe für die private Kranken- und Pflege-Pflichtversicherung und die Höhe des Basisbeitrags zur privaten Kranken- und Pflege-Pflichtversicherung einbezogen.\nAls nächstes können Sie die genannten Seiten besuchen oder Ihre persönlichen ELStAM online in Mein ELSTER abfragen, um weitere Informationen zu erhalten.",
+      "rouge": {
+        "rouge1": 0.1375,
+        "rouge2": 0.1139,
+        "rougeL": 0.1375
+      },
+      "bleu": 0.0556,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die Antwort entspricht exakt der Referenzantwort und verweist korrekt auf die spezifischen Bereiche für Privatpersonen und Arbeitgeber."
+      },
+      "bertscore": {
+        "precision": 0.5662,
+        "recall": 0.7914,
+        "f1": 0.6602
+      }
+    },
+    {
+      "question": "Gibt es noch Steuererklärungsformulare zum Download oder zum Ausdrucken?",
+      "category": "Allgemeine Fragen zur Nutzung von ELSTER",
+      "reference": "Ja, Formulare im PDF-Format zum Ausdrucken und  Downloaden finden Sie auf dem  Formularserver der Bundesfinanzverwaltung. Diese Formulare können aber nicht mit ELSTER übermittelt werden.",
+      "prediction": "Ja, es gibt noch Steuererklärungsformulare zum Download oder zum Ausdrucken. Hier sind einige Details:\n* Formulare im PDF-Format sind verfügbar.\n* Diese Formulare können auf dem Formularserver der Bundesfinanzverwaltung gefunden werden.\n* Die Formulare können ausgedruckt werden.\n* Die Formulare können heruntergeladen werden.\n* Die Formulare können aber nicht mit ELSTER übermittelt werden.\n* Für weitere Informationen können Sie den Formularserver der Bundesfinanzverwaltung besuchen.\n\nNächste Aktion: Besuchen Sie den Formularserver der Bundesfinanzverwaltung, um die Formulare herunterzuladen oder auszudrucken.",
+      "rouge": {
+        "rouge1": 0.4259,
+        "rouge2": 0.3208,
+        "rougeL": 0.3519
+      },
+      "bleu": 0.159,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die Antwort bestätigt korrekt die Verfügbarkeit von PDF-Formularen auf dem Formularserver der Bundesfinanzverwaltung und weist richtigerweise auf die fehlende ELSTER-Übermittlungsmöglichkeit hin."
+      },
+      "bertscore": {
+        "precision": 0.7283,
+        "recall": 0.841,
+        "f1": 0.7806
+      }
+    },
+    {
+      "question": "Wie kann ich Fehler in meiner Erklärung, die ich nach dem Versenden entdeckt habe, nachträglich korrigieren?",
+      "category": "Allgemeine Fragen zur Nutzung von ELSTER",
+      "reference": "Eine nachträgliche Korrektur einer bereits gesendeten Erklärung können Sie durchführen, indem Sie diese Steuererklärung korrigiert nochmals senden. Dazu stellen Softwareprodukte Funktionen wie Kopieren oder Datenübernahme zur Unterstützung bereit. Achten Sie darauf, dass Sie, soweit Sie noch die „komprimierte“ Übermittlung nutzen, die richtige ausgedruckte und unterschriebene komprimierte Erklärung beim zuständigen Finanzamt abgeben. Falls Sie die Übermittlung elektronisch authentifiziert vornehmen, ist nichts weiter veranlasst. Es wird in der Regel die zuletzt übermittelte Erklärung bearbeitet. Bei Umsatzsteuervoranmeldungen sowie bei Lohnsteueranmeldungen ist es erforderlich die Korrektur im Formular anzugeben. Soweit Formulare wie Lohnsteuerbescheinigung konkrete Berichtigungs- und Stornierungsverfahren anbieten, sind diese zu nutzen.",
+      "prediction": "Um Fehler in Ihrer Erklärung nachträglich zu korrigieren, die Sie nach dem Versenden entdeckt haben, können Sie folgende Schritte unternehmen:\n* Eine korrigierte Erklärung erneut senden, wie in der Passage \"Wie kann ich Fehler in meiner Erklärung, die ich nach dem Versenden entdeckt habe, nachträglich korrigieren?\" (Quelle: help_elster_eop.md) beschrieben.\n* Die spezifischen Schritte für die Erstellung einer berichtigten Grundsteuererklärung über Mein ELSTER befolgen, wie in der Anleitung \"Erstellung einer berichtigten Grundsteuererklärung\" (Quelle: help_eop.md) angegeben.\n* Sich über den Prozess der Korrektur und Stornierung von Dokumenten, die über Mein ELSTER übermittelt wurden, informieren, wie in der Passage \"Stornierung und Korrektur bei Mein ELSTER seit dem Veranlagungsjahr 2016\" (Quelle: help_arbeitgeber_eop.md) beschrieben.\n* Softwareprodukte nutzen, die Funktionen zur Unterstützung bei der Korrektur anbieten.\n* Die Daten aus einer bereits gesendeten Erklärung übernehmen, die fehlerhaften Daten korrigieren und die Erklärung erneut übermitteln.\n* Bei Bedarf weitere Informationen oder Unterstützung von den zuständigen Behörden oder Steuerberatern einholen.\n\nNächste Aktion: Bitte prüfen Sie, ob Sie alle notwendigen Informationen haben, um die Korrektur vorzunehmen, oder ob Sie weitere Unterstützung benötigen.",
+      "rouge": {
+        "rouge1": 0.3377,
+        "rouge2": 0.1,
+        "rougeL": 0.1457
+      },
+      "bleu": 0.0297,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die Antwort deckt alle wesentlichen Aspekte der Referenz ab, insbesondere den Prozess des erneuten Versendens, die Unterscheidung zwischen authentifizierter und komprimierter Übermittlung sowie die Sonderregeln für Anmeldungen."
+      },
+      "bertscore": {
+        "precision": 0.6492,
+        "recall": 0.6885,
+        "f1": 0.6683
+      }
+    },
+    {
+      "question": "Warum kann ich meine Daten nicht auf CD oder per E-Mail an das Finanzamt schicken?",
+      "category": "Allgemeine Fragen zur Nutzung von ELSTER",
+      "reference": "Diese Übermittlungsform ist rechtlich nicht zulässig (§ 87a Abs. 1 AO).",
+      "prediction": "Hallo! Ich helfe Ihnen gerne bei Ihrer Frage.\n\nHier sind die wichtigsten Punkte:\n* Die Übermittlung von Daten auf CD oder per E-Mail an das Finanzamt ist nicht zulässig.\n* Dies ergibt sich aus § 87a Abs. 1 AO.\n* Die rechtliche Grundlage verbietet diese Übermittlungsform.\n* Es gibt keine Ausnahmen von dieser Regelung.\n* Die Sicherheit und Integrität der Daten müssen gewährleistet sein.\n* Es ist ratsam, sich an die vorgeschriebenen Übermittlungswege zu halten.\n\nNächste Aktion: Wenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfügung.",
+      "rouge": {
+        "rouge1": 0.2222,
+        "rouge2": 0.1237,
+        "rougeL": 0.1616
+      },
+      "bleu": 0.0418,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die generierte Antwort (implizit durch die Referenz) ist korrekt, da sie die rechtliche Unzulässigkeit gemäß der Abgabenordnung nennt."
+      },
+      "bertscore": {
+        "precision": 0.6007,
+        "recall": 0.8252,
+        "f1": 0.6953
+      }
+    },
+    {
+      "question": "Die elektronische Abgabe der Umsatzsteuer-Voranmeldung sowie der Lohnsteuer-Anmeldung ist gesetzlich vorgeschrieben. Ich habe aber noch keine Steuernummer, was soll ich tun?",
+      "category": "Umsatzsteuer-Voranmeldung und Lohnsteuer-Anmeldung",
+      "reference": "Unternehmer, die noch keine Steuernummer besitzen, erhalten aufgrund der Gewerbeanmeldung einen bundeseinheitlichen Fragebogen von dem zuständigen Finanzamt zugesandt. Dieser ist vom Unternehmer auszufüllen und dann dem Finanzamt zuzuleiten. Nach der Prüfung durch das Finanzamt erhält der Unternehmer vom Finanzamt eine Steuernummer zugeteilt mit der er dann die Umsatzsteuer-Voranmeldung beziehungsweise Lohnsteuer-Anmeldung elektronisch an das Finanzamt übermitteln kann. Eine elektronische Übermittlung ohne Steuernummer ist bei der Umsatzsteuer-Voranmeldung sowie der Lohnsteuer-Anmeldung nicht möglich. In den Fällen, in denen eine Umsatzsteuer-Voranmeldung beziehungsweise Lohnsteuer-Anmeldung abzugeben ist, ohne dass bereits eine Steuernummer erteilt wurde, wenden Sie sich bitte an das zuständige Finanzamt. Dort kann dann geprüft werden, ob die Unternehmereigenschaft bereits anerkannt wurde, ob in den Fällen einer Lohnsteuer-Anmeldung eventuell eine gesonderte Steuernummer erteilt wird oder ob die Umsatzsteuer-Voranmeldung beziehungsweise Lohnsteuer-Anmeldung in herkömmlicher Form (zum Beispiel auf Papier) abzugeben ist.",
+      "prediction": "Um die Umsatzsteuer-Voranmeldung und die Lohnsteuer-Anmeldung elektronisch abzugeben, benötigen Sie eine Steuernummer. Hier sind die Schritte, die Sie unternehmen sollten:\n* Warten Sie auf den Fragebogen des Finanzamts und füllen Sie ihn aus.\n* Kontaktieren Sie das Finanzamt, wenn Sie den Fragebogen noch nicht erhalten haben oder weitere Informationen benötigen.\n* Registrieren Sie sich bei ELSTER mit Ihrer E-Mail-Adresse, um bestimmte Funktionen wie das Ausfüllen und Übermitteln des Fragebogens zur steuerlichen Erfassung zu nutzen.\n* Warten Sie auf die Zuweisung Ihrer Steuernummer, nachdem Sie den Fragebogen zurückgesandt haben.\n* Beachten Sie, dass die elektronische Übermittlung ohne eine gültige Steuernummer nicht möglich ist.\n* Nehmen Sie alle notwendigen Schritte, um Ihre Steuernummer zu erhalten, um die gesetzlichen Anforderungen zu erfüllen.\n\nAls nächstes sollten Sie prüfen, ob Sie bereits einen Fragebogen vom Finanzamt erhalten haben oder ob Sie sich bei ELSTER registrieren sollten.",
+      "rouge": {
+        "rouge1": 0.3444,
+        "rouge2": 0.1,
+        "rougeL": 0.1589
+      },
+      "bleu": 0.0185,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die generierte Antwort entspricht exakt der Referenzantwort und deckt alle notwendigen Schritte (Fragebogen, Zuteilung der Steuernummer, Kontakt zum Finanzamt) vollständig und korrekt ab."
+      },
+      "bertscore": {
+        "precision": 0.7064,
+        "recall": 0.7403,
+        "f1": 0.7229
+      }
+    },
+    {
+      "question": "Welche technischen Voraussetzungen muss ich für die elektronische Steuererklärung erfüllen?",
+      "category": "Technische Fragen",
+      "reference": "Die Übermittlung Ihrer Steuerdaten erfolgt über das Internet. Sie benötigen neben dem notwendigen Internetzugang ein Steuer- beziehungsweise Buchhaltungsprogramm, das ELSTER unterstützt. Nutzen Sie Mein ELSTER, dann finden Sie genaue Informationen auf der Seite  Systemanforderungen.",
+      "prediction": "Um die elektronische Steuererklärung durchzuführen, müssen Sie bestimmte technische Voraussetzungen erfüllen. Hier sind einige wichtige Punkte:\n* Ein Internetzugang ist erforderlich.\n* Ein Steuer- oder Buchhaltungsprogramm, das ELSTER unterstützt, ist notwendig.\n* Die Systemanforderungen für Mein ELSTER müssen auf der entsprechenden Seite geprüft werden.\n* Das Betriebssystem muss den Anforderungen von Mein ELSTER entsprechen.\n* Der Browser muss kompatibel mit Mein ELSTER sein.\n* JavaScript muss aktiviert sein, um Mein ELSTER nutzen zu können.\nAls nächstes sollten Sie die genauen Systemanforderungen für Mein ELSTER auf der entsprechenden Seite prüfen, um sicherzustellen, dass Ihr System die Voraussetzungen erfüllt.",
+      "rouge": {
+        "rouge1": 0.2714,
+        "rouge2": 0.1014,
+        "rougeL": 0.2429
+      },
+      "bleu": 0.0469,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die generierte Antwort (implizit durch die Referenzvorgabe bewertet) deckt alle notwendigen technischen Aspekte ab: Internetzugang, ELSTER-kompatible Software und den Verweis auf die Systemanforderungen bei Nutzung von 'Mein ELSTER'."
+      },
+      "bertscore": {
+        "precision": 0.696,
+        "recall": 0.7765,
+        "f1": 0.734
+      }
+    },
+    {
+      "question": "Mit welchen Betriebssystemen ist ELSTER einsetzbar?",
+      "category": "Technische Fragen",
+      "reference": "ELSTER kann grundsätzlich unter allen Betriebssystemen eingesetzt werden. Bitte beachten Sie die Systemanforderungen der eingesetzten Software ( Mein ELSTER, Software von Drittanbietern).",
+      "prediction": "ELSTER kann grundsätzlich unter allen Betriebssystemen eingesetzt werden, wobei die Systemanforderungen der eingesetzten Software beachtet werden müssen. Hier sind einige wichtige Punkte zu beachten:\n* ELSTER kann unter allen Betriebssystemen eingesetzt werden.\n* Die Systemanforderungen der eingesetzten Software müssen beachtet werden.\n* Der ElsterAuthenticator unterstützt die Betriebssysteme Windows, MacOS und Linux Ubuntu.\n* Der Konfigurations-Assistent prüft die Systemdaten, um sicherzustellen, dass das System die Voraussetzungen für die Nutzung von Mein ELSTER erfüllt.\n* Die Übermittlung von Steuerdaten erfolgt über das Internet und erfordert ein Steuer- oder Buchhaltungsprogramm, das ELSTER unterstützt.\n* ElsterSecure kann derzeit nur mit Mein ELSTER verwendet werden und nicht direkt mit Steuersoftware von Drittherstellern.\n\nAls nächstes können Sie weitere Fragen zu den Systemanforderungen oder der Verwendung von ELSTER stellen.",
+      "rouge": {
+        "rouge1": 0.2685,
+        "rouge2": 0.1769,
+        "rougeL": 0.2416
+      },
+      "bleu": 0.0914,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die generierte Antwort entspricht exakt der Referenzantwort und deckt alle notwendigen Informationen sowie den Hinweis auf Drittanbieter ab."
+      },
+      "bertscore": {
+        "precision": 0.6898,
+        "recall": 0.8161,
+        "f1": 0.7476
+      }
+    },
+    {
+      "question": "Ich habe Probleme mit der Verbindung zu ELSTER, da dem Zertifikat der ELSTER-Server nicht vertraut wird. Wie kann ich das Problem beheben?",
+      "category": "Technische Fragen",
+      "reference": "Sie können das öffentliche Zertifikat der ELSTER-Server auf der Seite  Sicherheit) herunterladen. Richten sie dann dieses Zertifikat als vertrauenswürdiges Zertifikat in der Anwendung ein, welche den Aufbau der Verbindung verhindert hat.",
+      "prediction": "Um das Problem mit dem nicht vertrauenswürdigen Zertifikat des ELSTER-Servers zu beheben, können Sie folgende Schritte ausführen:\n* Laden Sie das öffentliche Zertifikat der ELSTER-Server auf der Seite [Sicherheit](https://www.elster.de/elsterweb/infoseite/sicherheit_(allgemein)) herunter.\n* Identifizieren Sie die Anwendung, die den Aufbau der Verbindung verhindert hat.\n* Richten Sie das heruntergeladene Zertifikat als vertrauenswürdiges Zertifikat in der Anwendung ein.\n* Überprüfen Sie, ob die Verbindung zu ELSTER nach der Einrichtung des Zertifikats erfolgreich hergestellt werden kann.\n* Wenn das Problem weiterhin besteht, überprüfen Sie die Konfiguration der Anwendung und des Zertifikats.\n* Wenn Sie weitere Hilfe benötigen, können Sie sich an den ELSTER-Support wenden.\n\nNächste Aktion: Überprüfen Sie, ob die Verbindung zu ELSTER erfolgreich hergestellt werden kann, nachdem Sie das Zertifikat eingerichtet haben.",
+      "rouge": {
+        "rouge1": 0.3571,
+        "rouge2": 0.2892,
+        "rougeL": 0.2976
+      },
+      "bleu": 0.1355,
+      "llm_judge": {
+        "correctness": 1,
+        "completeness": 1,
+        "relevance": 1,
+        "reasoning": "Es wurde keine generierte Antwort bereitgestellt, die bewertet werden konnte."
+      },
+      "bertscore": {
+        "precision": 0.6914,
+        "recall": 0.8372,
+        "f1": 0.7574
+      }
+    },
+    {
+      "question": "Ich habe einen Internetzugang über DATEVnet und möchte ELSTER nutzen. Was muss ich dabei beachten?",
+      "category": "Technische Fragen",
+      "reference": "Um das Verfahren zur elektronischen Steuererklärung (ELSTER) über DATEVnet nutzen zu können müssen Sie eine bestimmte Proxy-Konfiguration auf Ihrem System hinterlegen: Weitere Infos unter  www.datev.de -> Info-Datenbank -> Suche -> Nummer 1033943 eingeben.",
+      "prediction": "Um ELSTER über DATEVnet zu nutzen, müssen Sie einige wichtige Schritte beachten. Hier sind die wichtigsten Punkte:\n* Sie benötigen einen Internetzugang über DATEVnet.\n* Eine bestimmte Proxy-Konfiguration muss auf Ihrem System hinterlegt werden.\n* Weitere Informationen finden Sie auf der Website von DATEV unter www.datev.de.\n* Gehen Sie zur Info-Datenbank und nutzen Sie die Suche.\n* Geben Sie die Nummer 1033943 ein, um die erforderlichen Informationen zu erhalten.\n* Beachten Sie die Anweisungen, um die Proxy-Konfiguration korrekt zu hinterlegen.\n\nNächste Aktion: Bitte überprüfen Sie die Informationen auf der DATEV-Website und konfigurieren Sie Ihre Proxy-Einstellungen entsprechend.",
+      "rouge": {
+        "rouge1": 0.4058,
+        "rouge2": 0.2059,
+        "rougeL": 0.3623
+      },
+      "bleu": 0.0188,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die generierte Antwort entspricht exakt der Referenzantwort und enthält alle notwendigen Informationen zur Proxy-Konfiguration und den Verweis auf die DATEV-Infodatenbank."
+      },
+      "bertscore": {
+        "precision": 0.7183,
+        "recall": 0.7702,
+        "f1": 0.7433
+      }
+    },
+    {
+      "question": "Welche Hersteller von Steuererklärungsprogrammen unterstützen ELSTER?",
+      "category": "Steuer- und Buchhaltungssoftware mit ELSTER-Funktion",
+      "reference": "Bitte prüfen Sie die am Markt erhältlichen Programme beziehungsweise informieren Sie sich im Internet. Die uns bekannten Produkte mit ELSTER-Funktionalität finden Sie unverbindlich im Bereich Weitere Softwareprodukte. Seite lädt... - Grafik drehender Stern Daten werden geladen...",
+      "prediction": "Ich kann Ihnen helfen, Ihre Frage zu beantworten. Basierend auf den verfügbaren Informationen:\n\n* ELSTER ist ein elektronisches Verfahren für die Steuererklärung.\n* Es ist geeignet für Personen mit Einkommen aus nichtselbstständiger Arbeit und ohne Kinder.\n* Die Steuererklärung kann über DATEVnet durchgeführt werden.\n* Benutzer können Belege in ihrem Benutzerkonto speichern, um ihre Einkommensteuererklärung vorzubereiten.\n* Die Abrufberechtigung in Mein ELSTER kann aktiviert werden, um die Anwendung einer anderen Person zu genehmigen.\n* Um Ihre Frage zu beantworten, benötige ich weitere Informationen: Können Sie mir bitte sagen, ob Sie nach einer bestimmten Art von Steuererklärungsprogramm suchen?",
+      "rouge": {
+        "rouge1": 0.1259,
+        "rouge2": 0.0,
+        "rougeL": 0.0559
+      },
+      "bleu": 0.0027,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die generierte Antwort entspricht exakt der Referenzantwort und verweist korrekt auf die Liste der Drittanbieter-Software sowie den Hinweis zur Eigenrecherche."
+      },
+      "bertscore": {
+        "precision": 0.6062,
+        "recall": 0.6406,
+        "f1": 0.623
+      }
+    },
+    {
+      "question": "Muss sich bei der Abgabe einer gemeinsamen Einkommensteuererklärung (Zusammenveranlagung) jeder Ehegatte / Lebenspartner registrieren?",
+      "category": "Allgemeines",
+      "reference": "Nein. Es genügt, wenn sich einer von beiden registriert. Denn dabei wird lediglich derjenige authentifiziert, der die Daten übermittelt. Solange keine gegenteiligen Einwendungen erhoben werden, geht das Finanzamt bei der weiteren Bearbeitung davon aus, dass der Inhalt der Steuererklärung beiden Ehegatten / Lebenspartnern bekannt ist und dass eine für beide rechtswirksame Einkommensteuererklärung vorliegt.",
+      "prediction": "Die Frage, ob sich bei der Abgabe einer gemeinsamen Einkommensteuererklärung (Zusammenveranlagung) jeder Ehegatte oder Lebenspartner registrieren muss, kann wie folgt beantwortet werden:\n* Es ist nicht notwendig, dass sich beide Ehegatten oder Lebenspartner registrieren.\n* Es genügt, wenn sich einer von beiden registriert.\n* Der registrierte Partner wird authentifiziert, wenn er die Daten übermittelt.\n* Das Finanzamt geht davon aus, dass der Inhalt der Steuererklärung beiden Ehegatten oder Lebenspartnern bekannt ist.\n* Es wird angenommen, dass eine für beide rechtswirksame Einkommensteuererklärung vorliegt, solange keine gegenteiligen Einwendungen erhoben werden.\n* Die Registrierung eines Partners reicht aus, um die gemeinsame Einkommensteuererklärung abzugeben.\n\nAls nächstes können Sie Ihre Steuererklärung entsprechend vorbereiten und einreichen.",
+      "rouge": {
+        "rouge1": 0.5799,
+        "rouge2": 0.4311,
+        "rougeL": 0.4497
+      },
+      "bleu": 0.2475,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die Antwort entspricht exakt der Referenzantwort und beantwortet die Frage präzise und vollständig."
+      },
+      "bertscore": {
+        "precision": 0.7804,
+        "recall": 0.8416,
+        "f1": 0.8098
+      }
+    },
+    {
+      "question": "Ist die Nutzung von ELSTER kostenpflichtig? Welche Kosten sind mit den Login-Optionen Zertifikatsdatei, Sicherheitsstick und Signaturkarte verbunden?",
+      "category": "Allgemeines",
+      "reference": "Das Angebot von Mein ELSTER ist nicht kostenpflichtig. Nutzer, die sich für die Login-Optionen Sicherheitsstick oder Signaturkarte interessieren, benötigen aber bereits bei der Registrierung einen Sicherheitsstick oder eine unterstützte Signaturkarte für Authentifizierung plus Kartenleser, die sie im Vorfeld kaufen müssen oder aber bereits besitzen. Damit sind Kosten verbunden. Bei der Nutzung einer Zertifikatsdatei fallen keine Kosten an.",
+      "prediction": "Die Nutzung von ELSTER ist nicht kostenpflichtig. Hier sind einige wichtige Punkte zu den Kosten:\n* Die Nutzung von ELSTER an sich ist kostenlos.\n* Für die Login-Optionen Sicherheitsstick und Signaturkarte fallen Kosten an, da diese im Vorfeld gekauft werden müssen.\n* Die Nutzung einer Zertifikatsdatei ist kostenlos.\n* Es ist wichtig, die Kosten für die Login-Optionen im Vorfeld zu berücksichtigen.\n* Die Kosten für Sicherheitsstick und Signaturkarte variieren je nach Anbieter.\n* Es lohnt sich, die verschiedenen Optionen zu vergleichen, um die beste Lösung für die eigenen Bedürfnisse zu finden.\n\nUm weitere Informationen zu erhalten, können Sie sich für eine der folgenden Optionen entscheiden:",
+      "rouge": {
+        "rouge1": 0.3908,
+        "rouge2": 0.1744,
+        "rougeL": 0.2529
+      },
+      "bleu": 0.0751,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die Antwort deckt alle Aspekte der Referenz korrekt ab: Die generelle Kostenfreiheit von ELSTER, die Kostenfreiheit der Zertifikatsdatei sowie die Anschaffungskosten für Hardware bei Sicherheitsstick und Signaturkarte."
+      },
+      "bertscore": {
+        "precision": 0.7203,
+        "recall": 0.7572,
+        "f1": 0.7383
+      }
+    },
+    {
+      "question": "Sind meine Daten bei Mein ELSTER sicher?",
+      "category": "Allgemeines",
+      "reference": "Ja. Sie können übrigens auch durch die Wahl der Art des Logins entscheiden, welches Sicherheitsverfahren Ihnen am meisten geeignet erscheint. Technische Information zu den einzelnen Verfahren finden Sie unter Datensicherheit und IT-Sicherheit.",
+      "prediction": "Hallo, ich helfe Ihnen gerne bei Ihrer Frage. Hier sind einige wichtige Punkte zu beachten:\n* Die Seite \"**Sind meine Daten bei Mein ELSTER sicher?**\" bietet direkte Informationen zur Datensicherheit und IT-Sicherheit.\n* Die \"**Sicherheitsabfrage**\" ist ein spezifisches Sicherheitsfeature, das den Schutz des persönlichen Zugangs gewährleistet.\n* Die \"**App ElsterSecure**\" bietet Einblicke in die sichere Anmeldung und den Schutz der Daten beim Zugriff auf Mein ELSTER.\n* Die Reihenfolge der Quellen spiegelt ihre Relevanz und Direktheit zur Frage der Datensicherheit wider.\n* Die erste Quelle ist am relevantesten, da sie direkt die Sicherheit der Daten thematisiert.\n* Für weitere Informationen können Sie die entsprechenden Seiten besuchen.\n\nNächste Aktion: Bitte besuchen Sie die Seite \"**Sind meine Daten bei Mein ELSTER sicher?**\", um detaillierte Informationen zur Datensicherheit zu erhalten.",
+      "rouge": {
+        "rouge1": 0.1863,
+        "rouge2": 0.0503,
+        "rougeL": 0.0745
+      },
+      "bleu": 0.0192,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die Antwort bestätigt die Sicherheit und verweist korrekt auf die Wahlmöglichkeit der Login-Verfahren sowie die technischen Informationen, wie in der Referenz angegeben."
+      },
+      "bertscore": {
+        "precision": 0.5955,
+        "recall": 0.7012,
+        "f1": 0.644
+      }
+    },
+    {
+      "question": "Ich habe meine Steuererklärung authentifiziert mit meinem Zertifikat aus Mein ELSTER oder einem anderen Steuerprogramm abgegeben, finde aber keine Bestätigung der Abgabe in meinem Posteingang bzw. unter Übermittelte Formulare in Mein ELSTER.",
+      "category": "Allgemeines",
+      "reference": "Im Posteingang von Mein ELSTER werden derzeit nur die Abgaben bestätigt, die auch direkt über Mein ELSTER (im Bereich \"Formulare/Leistungen\") durchgeführt wurden.",
+      "prediction": "Hallo, ich helfe Ihnen gerne bei Ihrer Frage. Hier sind einige wichtige Punkte zu beachten:\n* Sie haben Ihre Steuererklärung authentifiziert und abgegeben, aber finden keine Bestätigung im Posteingang oder unter \"Übermittelte Formulare\" in Mein ELSTER.\n* Der Posteingang von Mein ELSTER bestätigt derzeit nur Abgaben, die direkt über Mein ELSTER durchgeführt wurden.\n* Es gibt möglicherweise eine Erklärung, warum die Bestätigung nicht zu finden ist, aber ich benötige möglicherweise weitere Informationen, um Ihnen besser helfen zu können.\n* Wenn Sie Ihre Steuererklärung mit einem anderen Steuerprogramm abgegeben haben, könnte dies der Grund für die fehlende Bestätigung sein.\n* Ich empfehle Ihnen, die Informationen auf der Mein ELSTER-Website zu überprüfen, um sicherzustellen, dass Sie alle notwendigen Schritte ausgeführt haben.\n* Wenn Sie weitere Fragen haben oder Hilfe benötigen, stehe ich Ihnen gerne zur Verfügung.\n\nAls nächstes: Könnten Sie mir bitte sagen, ob Sie Ihre Steuererklärung direkt über Mein ELSTER oder mit einem anderen Steuerprogramm abgegeben haben?",
+      "rouge": {
+        "rouge1": 0.203,
+        "rouge2": 0.1128,
+        "rougeL": 0.1624
+      },
+      "bleu": 0.0379,
+      "llm_judge": {
+        "correctness": 1,
+        "completeness": 1,
+        "relevance": 1,
+        "reasoning": "Es wurde keine generierte Antwort bereitgestellt, die bewertet werden könnte."
+      },
+      "bertscore": {
+        "precision": 0.5938,
+        "recall": 0.7786,
+        "f1": 0.6738
+      }
+    },
+    {
+      "question": "Kann ich mehrere Benutzerkonten gleichzeitig führen?",
+      "category": "Benutzerkonten",
+      "reference": "Bei einer Registrierung mit Ihrer persönlichen Identifikationsnummer können Sie lediglich ein Benutzerkonto anlegen. Bei einer Registrierung mit Ihrer Organisations-Steuernummer können Sie mit Zertifikatsdatei lediglich 5000 Benutzerkonten pro Steuernummer anlegen. In Verbindung mit Sicherheitsstick erhöht sich die maximale Anzahl an Benutzerkonten pro Steuernummer auf 10000. Mit Signaturkarte beträgt die maximale Anzahl 1000.",
+      "prediction": "Hallo, ich helfe Ihnen gerne bei Ihrer Frage. Hier sind die wichtigsten Punkte zur Führung mehrerer Benutzerkonten:\n\n* Bei Registrierung mit persönlicher Identifikationsnummer kann lediglich ein Benutzerkonto angelegt werden.\n* Bei Registrierung mit Organisations-Steuernummer können je nach Authentifizierungsmethode unterschiedliche Anzahlen an Benutzerkonten angelegt werden.\n* Mehrere Benutzerkonten mit unterschiedlichen Login-Arten können geführt werden, solange die Benutzernamen unterschiedlich sind.\n* Für jedes Benutzerkonto ist eine separate Registrierung erforderlich und ein eindeutiger Benutzername muss vergeben werden.\n* Es ist möglich, ElsterSecure für den Zugriff auf mehrere Konten zu nutzen.\n* Die Verwaltung mehrerer Benutzerkonten über die App ist möglich, solange die oben genannten Bedingungen erfüllt sind.\n\nAls nächstes sollten Sie prüfen, ob Sie die Voraussetzungen für die Führung mehrerer Benutzerkonten erfüllen und welche Authentifizierungsmethode für Sie am besten geeignet ist.",
+      "rouge": {
+        "rouge1": 0.2741,
+        "rouge2": 0.0923,
+        "rougeL": 0.203
+      },
+      "bleu": 0.0143,
+      "llm_judge": {
+        "correctness": 1,
+        "completeness": 1,
+        "relevance": 1,
+        "reasoning": "Die generierte Antwort fehlt vollständig, daher können keine Kriterien erfüllt werden."
+      },
+      "bertscore": {
+        "precision": 0.6938,
+        "recall": 0.7655,
+        "f1": 0.7279
+      }
+    },
+    {
+      "question": "Kann ich mehrere Benutzerkonten führen, die sich in der Art des Logins (Zertifikatsdatei, Sicherheitsstick, Signaturkarte) unterscheiden?",
+      "category": "Benutzerkonten",
+      "reference": "Ja. Lediglich die Benutzernamen der Benutzerkonten müssen sich unterscheiden. Bitte beachten Sie aber, dass die gleichzeitige Nutzung von Signaturkarte und Sicherheitsstick auf einem PC zu technischen Problemen mit der Treiber-Software führen kann.",
+      "prediction": "Hallo! Ich helfe Ihnen gerne bei Ihrer Frage.\n\nHier sind die wichtigsten Punkte zu Ihrer Frage \"Kann ich mehrere Benutzerkonten führen, die sich in der Art des Logins (Zertifikatsdatei, Sicherheitsstick, Signaturkarte) unterscheiden?\":\n* Es ist möglich, mehrere Benutzerkonten zu führen, die sich in der Art des Logins unterscheiden, solange die Benutzernamen unterschiedlich sind.\n* Die gleichzeitige Nutzung von Signaturkarte und Sicherheitsstick kann zu technischen Problemen führen.\n* Für jedes benötigte Benutzerkonto ist eine separate Registrierung erforderlich und ein eindeutiger Benutzername muss vergeben werden.\n* Die Anzahl der Benutzerkonten, die je nach Registrierungsart und Login-Methode geführt werden können, ist nicht explizit angegeben.\n* Es ist wichtig, dass Sie für jedes Benutzerkonto einen eindeutigen Benutzernamen verwenden.\n* Wenn Sie weitere Fragen haben, können Sie sich an den Support wenden.\n\nNächste Aktion: Wenn Sie weitere Informationen benötigen, können Sie mich gerne fragen oder sich an den Support wenden.",
+      "rouge": {
+        "rouge1": 0.2447,
+        "rouge2": 0.1183,
+        "rougeL": 0.1809
+      },
+      "bleu": 0.0459,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die Antwort entspricht exakt der Referenzantwort und deckt alle Aspekte (Möglichkeit, Voraussetzung der Benutzernamen und technischer Warnhinweis) ab."
+      },
+      "bertscore": {
+        "precision": 0.6497,
+        "recall": 0.7453,
+        "f1": 0.6942
+      }
+    },
+    {
+      "question": "Was muss ich tun, wenn ich mehrere Benutzerkonten benötige?",
+      "category": "Benutzerkonten",
+      "reference": "Sie müssen sich für jedes Benutzerkonto, das Sie anlegen möchten, registrieren. Bitte beachten Sie, dass Sie bei jeder Registrierung einen neuen Benutzernamen für das Benutzerkonto vergeben müssen, damit Sie Ihre Benutzerkonten unterscheiden können.",
+      "prediction": "Um mehrere Benutzerkonten zu erstellen, müssen Sie folgende Schritte ausführen:\n* Registrieren Sie sich für jedes Konto separat.\n* Vergewissern Sie sich, dass jeder Benutzername eindeutig ist.\n* Wählen Sie die geeignete Registrierungsmethode (persönliche Identifikationsnummer oder Organisations-Steuernummer).\n* Beachten Sie die Beschränkungen bei der Anzahl der Benutzerkonten je nach Registrierungsmethode.\n* Verwenden Sie eine geeignete Authentifizierungsmethode (Zertifikatsdatei, Sicherheitsstick, Signaturkarte).\n* Stellen Sie sicher, dass die Benutzernamen bei der Verwendung unterschiedlicher Authentifizierungsmethoden eindeutig sind.\n\nAls nächstes sollten Sie die geeignete Registrierungsmethode wählen und die erforderlichen Schritte ausführen, um Ihre Benutzerkonten zu erstellen.",
+      "rouge": {
+        "rouge1": 0.2836,
+        "rouge2": 0.0909,
+        "rougeL": 0.209
+      },
+      "bleu": 0.0158,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die generierte Antwort entspricht exakt der Referenzantwort und deckt alle notwendigen Schritte und Hinweise ab."
+      },
+      "bertscore": {
+        "precision": 0.6585,
+        "recall": 0.7634,
+        "f1": 0.7071
+      }
+    },
+    {
+      "question": "Kann ich ein Benutzerkonto auch wieder löschen?",
+      "category": "Benutzerkonten",
+      "reference": "Ja, Sie können ein Benutzerkonto löschen. Auf der Startseite von ELSTER ist der Menüpunkt \"Mein Benutzerkonto\", \"Benutzerkonto löschen\" auszuwählen. Dort ist die Eingabe von E-Mail-Adresse und Benutzername Ihres Benutzerkontos erforderlich. Sollte der Benutzername nicht mehr bekannt sein, können Sie sich über den Link \"Benutzernamen zusenden\" alle unter der eingegebenen E-Mail-Adresse registrierten Benutzerkonten und begonnenen Registrierungen zusenden lassen. Im nächsten Schritt ist bei Benutzerkonten \"Für eine Organisation\" die Sicherheitsabfrage zu beantworten und eine Begründung anzugeben. Danach werden Sie gefragt, ob Sie den Löschvorgang tatsächlich durchführen wollen. Mit einem Klick auf \"Ja\" wird die Löschung des Benutzerkontos durchgeführt. Bei Benutzerkonten \"Für eine Privatperson\", ist eine Löschung durch Angabe der steuerlichen Identifikationsnummer sowie des Geburtsdatums möglich. Sollten Sie die Löschung nicht durchführen können, weil die bei der Registrierung verwendete bzw. im Benutzerkonto gespeicherte E-Mail-Adresse nicht mehr existiert oder Sie die Antwort auf die Sicherheitsabfrage bei einer Registrierung \"Für eine Organisation\" vergessen haben, dann wenden Sie sich bitte an Ihr zuständiges Finanzamt.",
+      "prediction": "Ja, es ist möglich, ein Benutzerkonto zu löschen. Hier sind einige wichtige Punkte zu beachten:\n* Es gibt eine direkte Möglichkeit, ein Benutzerkonto zu löschen, und Anweisungen dazu sind verfügbar.\n* Beim Löschen eines Benutzerkontos kann es zu Folgen wie dem Verlust des Zugriffs auf Daten in Mein ELSTER kommen.\n* Wenn die Sicherheitsabfrage beim Versuch, ein Benutzerkonto zu löschen, falsch beantwortet wird, gibt es Hilfe und Tipps, wie man in diesem Fall vorgehen kann.\n* Die relevanten Dokumente bieten direkte Anleitungen und Hinweise zur Lösung des Problems.\n* Es ist wichtig, die Anweisungen sorgfältig zu befolgen, um das Benutzerkonto erfolgreich zu löschen.\n* Wenn Sie weitere Fragen haben, können Sie sich an die Hilfe-Seiten wenden, um mehr Informationen zu erhalten.\n\nNächste Aktion: Wenn Sie Ihr Benutzerkonto löschen möchten, folgen Sie bitte den Anweisungen auf der Seite \"Benutzerkonto löschen\" oder wenden Sie sich an die Hilfe-Seiten, wenn Sie weitere Fragen haben.",
+      "rouge": {
+        "rouge1": 0.3563,
+        "rouge2": 0.0809,
+        "rougeL": 0.1839
+      },
+      "bleu": 0.0521,
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die generierte Antwort entspricht exakt der Referenzantwort und deckt alle technischen Details sowie Sonderfälle (Privatperson vs. Organisation) vollständig ab."
+      },
+      "bertscore": {
+        "precision": 0.7276,
+        "recall": 0.7036,
+        "f1": 0.7154
+      }
+    }
+  ]
+}

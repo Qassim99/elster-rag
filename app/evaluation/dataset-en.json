@@ -1,0 +1,710 @@
+[
+  {
+    "category": "General questions about using ELSTER",
+    "question": "What is ELSTER?",
+    "ground_truth": "ELSTER - the electronic tax return - is a procedure that allows you to submit your tax return to your tax office electronically via the Internet. Mein ELSTER: Your online tax office bundles the online services of the tax authorities. You can create and submit your electronic tax return here.",
+    "language": "en"
+  },
+  {
+    "category": "General questions about using ELSTER",
+    "question": "Where can I find help?",
+    "ground_truth": "We are here for you. With the  Chat assistants you can find the contact details of the office responsible for your problem/question. To do this, select your federal state and your property in the chat. You will then be offered assistance. If the help does not lead to success, the contact details will be displayed.",
+    "language": "en"
+  },
+  {
+    "category": "General questions about using ELSTER",
+    "question": "Where can I find information on ELStAM? (Electronic income tax card)",
+    "ground_truth": "Comprehensive information can be found on the pages ELStAM (private individuals)) and ELStAM (employer)).",
+    "language": "en"
+  },
+  {
+    "category": "General questions about using ELSTER",
+    "question": "Are there still tax return forms available to download or print out?",
+    "ground_truth": "Yes,  you will find forms in PDF format for printing and  Downloading on the  Forms server of the Federal Finance Administration. However, these forms cannot be transmitted using ELSTER.",
+    "language": "en"
+  },
+  {
+    "category": "General questions about using ELSTER",
+    "question": "How can I correct errors in my declaration that I discovered after sending it?",
+    "ground_truth": "You can make a subsequent correction to a return that has already been sent by resending the corrected tax return. Software products provide functions such as copying or data transfer to support this. Make sure that you submit the correct printed and signed compressed declaration to the relevant tax office if you are still using the \"compressed\" transmission. If you make the transmission electronically authenticated, no further action is required. As a rule, the last declaration submitted will be processed. In the case of advance VAT returns and wage tax returns, it is necessary to indicate the correction in the form. If forms such as wage tax certificates offer specific correction and cancellation procedures, these must be used.",
+    "language": "en"
+  },
+  {
+    "category": "General questions about using ELSTER",
+    "question": "Why can't I send my data to the tax office on CD or by e-mail?",
+    "ground_truth": "This form of transmission is not legally permissible (Section 87a Abs. 1 AO).",
+    "language": "en"
+  },
+  {
+    "category": "Advance sales tax return and wage tax return",
+    "question": "The electronic submission of advance VAT returns and income tax returns is required by law. But I don't have a tax number yet, what should I do?",
+    "ground_truth": "Entrepreneurs who do not yet have a tax number will receive a standardized questionnaire from the responsible tax office when they register their business. This must be completed by the entrepreneur and then forwarded to the tax office. After verification by the tax office, the entrepreneur receives a tax number from the tax office with which he can then submit the advance VAT return or income tax return electronically to the tax office. Electronic transmission without a tax number is not possible for advance VAT returns or wage tax returns. In cases where an advance VAT return or payroll tax return is to be submitted without a tax number having already been issued, please contact the relevant tax office. They can then check whether the entrepreneurial status has already been recognized, whether a separate tax number may be issued in the case of an income tax return or whether the advance VAT return or income tax return must be submitted in the conventional form (e.g. on paper).",
+    "language": "en"
+  },
+  {
+    "category": "Technical questions",
+    "question": "What technical requirements do I have to meet for the electronic tax return?",
+    "ground_truth": "Your tax data is transmitted via the Internet. In addition to the necessary Internet access, you will need a tax or accounting program that supports ELSTER. If you use Mein ELSTER, you will find detailed information on the page  System requirements.",
+    "language": "en"
+  },
+  {
+    "category": "Technical questions",
+    "question": "Which operating systems can ELSTER be used with?",
+    "ground_truth": "In principle, ELSTER can be used under all operating systems. Please note the system requirements of the Software used ( Mein ELSTERSoftware from third-party providers).",
+    "language": "en"
+  },
+  {
+    "category": "Technical questions",
+    "question": "I have problems connecting to ELSTER because the certificate of the ELSTER server is not trusted. How can I fix the problem?",
+    "ground_truth": "You can view the public certificate of the ELSTER servers on the page  Security) download. Then set up this certificate as a trusted certificate in the application that prevented the connection from being established.",
+    "language": "en"
+  },
+  {
+    "category": "Technical questions",
+    "question": "I have Internet access via DATEVnet and would like to use ELSTER. What do I need to bear in mind?",
+    "ground_truth": "To be able to use the electronic tax return procedure (ELSTER) via DATEVnet, you must store a specific Proxy configuration on your system: Further information at  www.datev.de -> Info database -> Search -> Enter number 1033943.",
+    "language": "en"
+  },
+  {
+    "category": "Tax and accounting software with ELSTER function",
+    "question": "Which manufacturers of tax return programs support ELSTER?",
+    "ground_truth": "Please check the programs available on the market or find out more on the Internet. The products known to us with ELSTER functionality can be found without obligation in the Other software products section. Page loads... - Graphic rotating star Data is loaded...",
+    "language": "en"
+  },
+  {
+    "category": "General information",
+    "question": "Does each spouse / partner have to register when filing a joint income tax return (joint assessment)?",
+    "ground_truth": "No. It is sufficient for one of them to register. This is because only the person who submits the data is authenticated. As long as no objections to the contrary are raised, the tax office assumes for further processing that the content of the tax return is known to both spouses/partners and that a legally valid income tax return has been submitted for both of them.",
+    "language": "en"
+  },
+  {
+    "category": "General information",
+    "question": "Is there a charge for using ELSTER? What costs are associated with the certificate file, security stick and signature card Login options?",
+    "ground_truth": "There is no charge for the My ELSTER service. However, users who are interested in the security stick or signature card Login options require a security stick or a supported signature card for authentication plus card reader when registering, which they must purchase in advance or already have. This is associated with costs. There are no costs for using a certificate file.",
+    "language": "en"
+  },
+  {
+    "category": "General information",
+    "question": "Is my data secure at My ELSTER?",
+    "ground_truth": "Yes, by the way, you can also decide which security procedure is most suitable for you by choosing the type of Login. You can find technical information on the individual procedures at Data security and IT security.",
+    "language": "en"
+  },
+  {
+    "category": "General information",
+    "question": "I have submitted my tax return authenticated with my certificate from My ELSTER or another tax program, but I cannot find any confirmation of submission in my inbox or under Transmitted forms in My ELSTER.",
+    "ground_truth": "In the My ELSTER inbox, only those submissions are currently confirmed that have also been made directly via My ELSTER (in the \"Forms/Services\" section).",
+    "language": "en"
+  },
+  {
+    "category": "User accounts",
+    "question": "Can I have several user accounts at the same time?",
+    "ground_truth": "When registering with your personal identification number, you can only create one user account. When registering with your organization tax number, you can only create 5000 user accounts per tax number with a certificate file. In conjunction with a security stick, the maximum number of user accounts per tax number increases to 10,000. With a signature card, the maximum number is 1,000.",
+    "language": "en"
+  },
+  {
+    "category": "User accounts",
+    "question": "Can I have several user accounts that differ in the type of Logins (certificate file, security stick, signature card)?",
+    "ground_truth": "Yes, only the user names of the user accounts must be different. Please note, however, that the simultaneous use of a signature card and security stick on one PC can lead to technical problems with the driver software.",
+    "language": "en"
+  },
+  {
+    "category": "User accounts",
+    "question": "What do I have to do if I need several user accounts?",
+    "ground_truth": "You must register for each user account you wish to create. Please note that you must assign a new user name for the user account each time you register so that you can distinguish between your user accounts.",
+    "language": "en"
+  },
+  {
+    "category": "User accounts",
+    "question": "Can I delete a user account again?",
+    "ground_truth": "Yes, you can delete a user account. On the start page of ELSTER, select the menu item \"My user account\", \"Delete user account\". There you need to enter the email address and user name of your user account. If you no longer know the user name, you can use the \"Send user name\" link to have all user accounts registered under the email address entered and registrations started sent to you. In the next step, you must answer the security query for user accounts \"For an organization\" and provide a reason. You will then be asked whether you actually want to carry out the deletion process. By clicking on \"Yes\", the user account will be deleted. For user accounts \"For a private individual\", deletion is possible by entering the tax identification number and date of birth. If you are unable to carry out the deletion because the email address used for registration or saved in the user account no longer exists or you have forgotten the answer to the security question for a registration \"For an organization\", please contact your local tax office.",
+    "language": "en"
+  },
+  {
+    "category": "User accounts",
+    "question": "Can I also delete my user account if I have not yet completed the registration process?",
+    "ground_truth": "Yes, under \"My user account\", \"Delete user account\" you can also delete a user account for which registration has not yet been completed. Please note, however, that for technical reasons the letter with the activation code will still be sent to you. This has no effect on the deletion of the user account. You can then destroy the letter with the activation code.",
+    "language": "en"
+  },
+  {
+    "category": "User accounts",
+    "question": "Can I reactivate a deleted user account?",
+    "ground_truth": "No. This functionality is planned for a later date. At present, all data (e.g. messages in the inbox, drafts and created profiles) are deleted during this process. They cannot be restored.",
+    "language": "en"
+  },
+  {
+    "category": "User accounts",
+    "question": "I would like to delete my user account and have already entered the answer to my security question incorrectly several times.",
+    "ground_truth": "If the answer to the security question is entered incorrectly 3 times, you can try to delete the account again the next day (from 00:00:01). You will then have another 3 attempts. Can't remember your security question for deleting your user account? If you have registered with your identification number, it is often still possible to delete your user account using the \"Forgot your answer?\" function. Enter your date of birth and your identification number and select the reason for deleting the account. Once the entered identification number and date of birth have been successfully checked, you will receive a confirmation of transmission. At the same time, an e-mail with a deletion link will be sent to the e-mail address stored in the user account. This link can be used to permanently delete the user account. If you are unable to carry out the deletion, e.g. because the \"Forgot reply?\" function is not displayed, please contact the office responsible in your federal state, stating your tax number or identification number and your user name (see https://www.elste r.de/eportal/infoseite/kontakt under \"Problems registering with Mein ELSTER\"). Deletion by the ELSTER Hotline is not possible.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterAuthenticator",
+    "question": "What is the ElsterAuthenticator?",
+    "ground_truth": "The ElsterAuthenticator is a program that enables the use of My ELSTER with a security stick and signature card without a Java browser plugin. After installing and configuring the ElsterAuthenticator, users of My ELSTER can once again use all supported browsers together with their security stick or signature card. During use, the ElsterAuthenticator must run in the background. If a step is then performed in My ELSTER in which access to the security stick or signature card is required, the ElsterAuthenticator comes to the foreground and, if necessary, requests a password entry in order to perform the respective action (e.g. saving a mailbox message). Manual for ElsterAuthenticator",
+    "language": "en"
+  },
+  {
+    "category": "ElsterAuthenticator",
+    "question": "Which authentication methods and which operating systems are supported?",
+    "ground_truth": "The ElsterAuthenticator can only be used together with security sticks and signature cards. The operating systems Windows, macOS and Linux Ubuntu are supported. Detailed information on the supported configurations can be found at www.sicherheitsstick.de. Certificate files are still supported directly in the Browser on a JavaScript basis, the use of the ElsterAuthenticator is not required here.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterAuthenticator",
+    "question": "What is the PUK used for when registering with a security stick?",
+    "ground_truth": "When registering with a security stick using the ElsterAuthenticator, you will be asked to memorize the newly generated PUK (Personal Unblocking Key). Alternatively, the PUK can also be saved. The PUK can be used to unlock the password of the \"G&D StarSignCrypto USB Token (S)\"security stick  if it has been entered incorrectly too often. If a registration was carried out without using the ElsterAuthenticator, there is no PUK. The \"G&D StarSignCrypto USB Token (S)\" can be unlocked  via the token administration tool or the ElsterAuthenticator.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterAuthenticator",
+    "question": "How can I unlock my stick in the ElsterAuthenticator?",
+    "ground_truth": "If the password has been entered incorrectly too many times, your security stick will be locked and you will receive a corresponding error message. To unlock the \"G&D StarSign Crypto USB Token (S)\" using the PUK, navigate to \"Change password\" via the menu. There you will find the \"Reset password\" link in the \"Forgot password / stick locked?\" section. If you follow this link, you can enter your PUK, assign a new password and thus unlock your security stick.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterAuthenticator",
+    "question": "ElsterAuthenticator is terminated: Port occupied",
+    "ground_truth": "In the event that the ElsterAuthenticator is terminated immediately after starting with the error message \"Port occupied\", you should check whether another ElsterAuthenticator has already been started. If this is not the case, then the cause is that another application on your system is occupying Port 24848. Please try to identify the application in question and close it while using the ElsterAuthenticator.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterAuthenticator",
+    "question": "The ElsterAuthenticator cannot establish a connection to My ELSTER",
+    "ground_truth": "In order to be able to perform various actions in My ELSTER together with the ElsterAuthenticator (for example, sending forms), the ElsterAuthenticator must be able to establish a connection to My ELSTER. If the connection cannot be established, one possible cause is that no direct connection to the Internet is possible in your system environment, but only via an HTTP proxy. In this case, go to the ElsterAuthenticator configuration, tab \"Proxy\" and enter the proxy URL required in your system. Firewall settings may restrict the ElsterAuthenticator's access to My ELSTER. In this case, access to the Host www.elster.de, Port 443, TCP protocol must be enabled. Use the connection test in the Proxy configuration of the ElsterAuthenticator to check that a connection can be established.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterAuthenticator",
+    "question": "What do I need to consider when changing my password?",
+    "ground_truth": "Your password must not be too short or contain any unauthorized characters. It must be exactly 6 characters long and only the following characters are allowed: Letters (without umlauts and ß), digits and the special characters !\"#$%&'()*+,-./:;<=>?@[]^_`{|}~ and the space character.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterAuthenticator",
+    "question": "Why is the current manual not displayed?",
+    "ground_truth": "If you open the manual in ElsterAuthenticator and it does not open in the latest version, one possible cause is that you have installed ElsterAuthenticator multiple times. This can happen if you have installed ElsterAuthenticator both as \"Administrator\" and as \"User\". It is therefore not recommended to install the application multiple times on one system (this also includes installation as a user with and without administrator rights), as this can lead to undesirable effects and technical problems. To solve this problem, you must uninstall all installed versions of the ElsterAuthenticator and reinstall the latest version.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterAuthenticator",
+    "question": "What does the warning \"The device driver software has not been installed\" mean in Windows?",
+    "ground_truth": "When the \"G&D StarSign Crypto USB Token (S)\" is plugged in for the first time, Windows attempts to install a suitable driver via the Windows driver service. As the security stick does not require a special driver, the Windows driver service does not detect a driver for installation. This behavior occurs under Windows 7, 8 and 10. By installing the ElsterAuthenticator, the \"G&D StarSign Crypto USB Token (S)\" is immediately ready for use, so the warning can be ignored. Optional: Download from www.sicherheitsstick.de to download the program for setting the registry values of the security stick and execute it with a double-click. The registry values address the Smartcard initialization of Windows. As a result, the above-mentioned warning is no longer displayed.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterAuthenticator",
+    "question": "How do I activate my account when using a Windows Terminal Server?",
+    "ground_truth": "When using a Windows Terminal Server, the activation of the user account must be started in the ElsterAuthenticator. This is done by clicking on \"Account activation\". The user account can then be activated as usual.",
+    "language": "en"
+  },
+  {
+    "category": "Security sticks",
+    "question": "What is a security stick?",
+    "ground_truth": "The security stick is a special USB stick for secure identification in My ELSTER. It has a cryptographic chip that can store the digital identity of a taxpayer absolutely securely and that performs the cryptographic operations for authentication and electronic signature. To use the security stick, you need to install additional Software, which you can download at www.sicherheitsstick.de can download. The security stick is not visible as a drive on your computer.",
+    "language": "en"
+  },
+  {
+    "category": "Security sticks",
+    "question": "Are there other ways to purchase the security sticks or are they only offered by this Online-Shop?",
+    "ground_truth": "No, at the moment you can only use the security sticks in this Shop acquire.",
+    "language": "en"
+  },
+  {
+    "category": "Security sticks",
+    "question": "I would like to use the security stick under a 64-bit operating system. What do I need to bear in mind?",
+    "ground_truth": "The security stick supports 64-bit operating systems. You can find out more about the supported drivers for 64-bit operating systems at www.sicherheitsstick.de.",
+    "language": "en"
+  },
+  {
+    "category": "Security sticks",
+    "question": "Where can I find further help on the security sticks?",
+    "ground_truth": "On the page <https://www.sicherheitsstick.de/FAQs.html> you will find more frequently asked questions about the security sticks.",
+    "language": "en"
+  },
+  {
+    "category": "Security sticks",
+    "question": "I would like to use the security stick under Linux Ubuntu. What do I need to bear in mind?",
+    "ground_truth": "To use the security stick under Linux Ubuntu, certain system packages or libraries must be available. Please follow the installation instructions for commissioning the security stick, which can be found at www.sicherheitsstick.de can find.",
+    "language": "en"
+  },
+  {
+    "category": "Signature cards",
+    "question": "When registering with a signature card, I receive the error message \"It is not possible to register again with the same signature card. This card is already registered in My ELSTER.\"",
+    "ground_truth": "A signature card can be used for a maximum of one user account in My ELSTER. However, an active user account already exists for your signature card in My ELSTER; it is possible to Login to your existing user account. To register for a new user account with your signature card, you must first delete the existing user account.",
+    "language": "en"
+  },
+  {
+    "category": "Signature cards",
+    "question": "Note for VR-Bank and DRV Rheinland signature card users",
+    "ground_truth": "The signature cards of the issuers \"VR-Bank\" and \"DRV Rheinland\" have only been supported to a limited extent since June 2016. Logins for registered users of these cards are still possible. However, it has no longer been possible to re-register with these cards or switch certificates to these cards since June 2016.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterSecure app",
+    "question": "What is ElsterSecure?",
+    "ground_truth": "**ElsterSecure - the secure, mobile Login** With My ELSTER, citizens and companies can submit their tax returns conveniently via their Browsers. To do this, the user must log in via a secure Login. ElsterSecure enables you to log into My ELSTER conveniently and securely without having to rely on a certificate file. With ElsterSecure, you can log in to your My ELSTER user account at any time, both on a PC and on the device on which ElsterSecure is installed. You will need: * A mobile device with a camera (smartphone or Tablet) with the ElsterSecure app installed. * A user account at My ELSTER, which can be linked to the app on your device.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterSecure app",
+    "question": "How do I set up ElsterSecure?",
+    "ground_truth": "The prerequisite for setting up ElsterSecure is the app installed on your mobile device. The device must have a camera to scan QR Codes. ZÜ to the app stores: * Google Play * Apple App Store **Set up ElsterSecure as an additional Login option for an existing user account** First log in to My ELSTER on your computer as usual. You will usually need your certificate file for this. After Login, go to the page \"My user account\" > \"ElsterSecure\". There, click on the \"Add ElsterSecure login option\" button. Then follow the instructions. **Create a new My ELSTER user account with ElsterSecure** If you do not yet have a user account with My ELSTER, you can register with the ElsterSecure app. To do this, go to \"Create user account\" and select the \"ElsterSecure\" Login option under \"How do you want to log in to My ELSTER \". Once you have received your activation ID by email **and** your activation Code by post, you can complete the registration process using ElsterSecure. This procedure ensures that no unauthorized access to your confidential tax data can take place. During setup, an access key is set up with the device password you use (e.g. screen lock, Face ID or fingerprint). **Note** : In the event that you lose your mobile device, it is recommended that you set up a certificate file as an additional Login option for your account. This way, you will still have access to your account even without your mobile device. To do this, set up a certificate after successful registration in My ELSTER under \"My account > Additional login options\". Without an additional Login option, you have the option of using the \"Lost smartphone? Unable to access access key?\" function on the login page. You will receive a new activation ID by email and a new activation letter by post to give you new access to your ELSTER user account.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterSecure app",
+    "question": "Can I use ElsterSecure for my tax software?",
+    "ground_truth": "With ElsterSecure, we provide a secure and simple way to Logins to My ELSTER. Please note that the ElsterSecure app can currently only be used with My ELSTER, but not with third-party tax software. After completing registration, you can add an additional Login option in your user profile (e.g. a certificate file). This can then also be used to submit forms with third-party tax software.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterSecure app",
+    "question": "Can I use ElsterSecure for multiple accounts?",
+    "ground_truth": "Yes, you can also add access keys for several user accounts at My ELSTER in ElsterSecure. The ElsterSecure app will then offer you all available access keys to choose from when you Login.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterSecure app",
+    "question": "Can I use ElsterSecure on multiple devices?",
+    "ground_truth": "Yes, you can use ElsterSecure on up to 3 devices for the same user account. To do this, you must link each device individually. After Logins, go to the \"My user account\" > \"ElsterSecure\" page. There, click on the \"Add ElsterSecure login option\" button. Then follow the instructions. Note: If you have already added 3 devices, the \"Add ElsterSecure Login option\" button will not be available again until you have removed one of the existing access keys from your user account.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterSecure app",
+    "question": "How do I remove my access key again?",
+    "ground_truth": "For complete removal, it is necessary to remove the access key in the app and in the user account. To remove an access key from the mobile device, navigate in the app via the menu to \"Settings\" > \"Keys\". There you will see all existing keys and can remove them again by swiping to the left and pressing the recycle bin icon. To remove the link in My ELSTER, navigate to \"My user account\" > \"Manage ElsterSecure Login option\". You can remove the link there.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterSecure app",
+    "question": "What do I do if my device is lost or I want to set up a new device?",
+    "ground_truth": "**If you have lost your device or can no longer use it** If you can no longer use your device, you should remove the link to the device in your My ELSTER user account. To do this, log in to My ELSTER using a different access method and navigate to \"My user account\" > \"ElsterSecure\" > \"Manage ElsterSecure Login option\". There you can view your linked devices and delete them if necessary. If you do not have another access method, you must renew your access to My ELSTER. To do this, go to the Login page and click on \"Lost your smartphone? Can't access your access key?\". All existing access keys will be blocked immediately (unless otherwise stated). **Add another / new device** If you would like to add another device, log in to My ELSTER and go to \"My user account\" > \"ElsterSecure\" > \"Add ElsterSecure Login option\". After successfully adding a new device, you can delete previous links under \"Manage ElsterSecure Login option\".",
+    "language": "en"
+  },
+  {
+    "category": "ElsterSecure app",
+    "question": "How do I transfer ElsterSecure to a new device?",
+    "ground_truth": "See under \"What do I do if my device is lost or I want to set up a new device?\" Note: Migration assistants for Android or iOS usually ensure that the ElsterSecure app is installed on your new device. However, access keys are not transferred as they are not exported from your old device as security functionality.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterSecure app",
+    "question": "Why does the Login no longer work after removing the screen lock or the fingerprint function?",
+    "ground_truth": "In order to meet the high security requirements of ELSTER, the ElsterSecure access key is protected by the security mechanism of the smartphone or Tablet. The ElsterSecure keys are closely linked to the selected procedure for unlocking your device. As a result, the ElsterSecure keys can no longer be used once the screen lock or biometric data (face, fingerprints) has been removed - even if the same screen lock protection is configured on the device as before. In this case, you must set up ElsterSecure again with this device (see \"How do I set up ElsterSecure\"). If you do not have a valid access method other than ElsterSecure, please use the \"Renew access\" function. To do this, go to the Login page in My ELSTER and click on \"Lost your smartphone? Unable to access the access key?\" and follow the steps described there. At the end, you will receive a new activation ID by e-mail and a new activation letter by post to give you new access to your ELSTER user account.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterSecure app",
+    "question": "I have problems with the ElsterSecure app. How can I get help?",
+    "ground_truth": "In this case, please contact mein ELSTER support and also submit the log data from the ElsterSecure app. You can forward the log data from the app in the \"Support\" menu item. If you cannot use the direct email function, you can alternatively use the \"Share log data\" function and then select your preferred email app, for example.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterSecure app",
+    "question": "Can ElsterSecure also be used without a screen lock?",
+    "ground_truth": "ELSTER does not recommend using your device without a screen lock. However, it is possible to use ElsterSecure without a screen lock. However, it is necessary to set a password during the initial setup. This password must then be entered with every ELSTER login in order to use the ElsterSecure access key.",
+    "language": "en"
+  },
+  {
+    "category": "ElsterSecure app",
+    "question": "Why do I see access keys in ElsterSecure even though I have removed them in Mein ELSTER?",
+    "ground_truth": "When removing ElsterSecure access keys from your user account in My ELSTER, the access keys on your devices are not automatically removed. If you no longer need ElsterSecure access keys on your device, you can remove them in the app under \"Settings > Keys\".",
+    "language": "en"
+  },
+  {
+    "category": "ElsterSecure app",
+    "question": "How can I log in on the same device on which the app is installed?",
+    "ground_truth": "So that you can log in on the same device on which the app is installed, you will be shown a Button for Login instead of the QR code. Click on the Button to open the ElsterSecure app.",
+    "language": "en"
+  },
+  {
+    "category": "App MeinElster+",
+    "question": "What is meinElster+ ?",
+    "ground_truth": "MeinELSTER+ is an app for Android and iOS smartphones that complements the Mein ELSTER service offering. With MeinELSTER+, you can upload all important receipts (e.g. tradesman's invoice, donation receipt, etc.) for your next income tax return to your user account at Mein ELSTER. This means you have your receipts to hand when you need them for your income tax return and save yourself the trouble of collecting them. You can also assign your receipts to comprehensible categories in the app and use the integrated text recognition to mark the values that are of interest for your tax return later. Once you have prepared the receipts in this way, Mein ELSTER will suggest where your receipt can be used in the tax return. The values marked in the app can then be transferred without any further typing or transposed figures.",
+    "language": "en"
+  },
+  {
+    "category": "App MeinElster+",
+    "question": "What are the requirements for using the app?",
+    "ground_truth": "MeinElster+ is currently available for Android and iOS smartphones in German-speaking countries. **Minimum requirements:** * Android smartphones and Tablets from Android 13 * iPhones and iPads from iOS 17 Use on Tablets is currently not recommended. However, we are already working on an optimized interface for Tablets and will make this available as an Update in the course of the year. You also need a Mein ELSTER user account with a certificate file.",
+    "language": "en"
+  },
+  {
+    "category": "App MeinElster+",
+    "question": "How do I set up meinElster+?",
+    "ground_truth": "To use MeinELSTER+, the app must be installed on your smartphone and linked to your Mein ELSTER user account. **And this is how it works:** Download the MeinElster+ app for iOS or Android from the App Store. Within the app, you will be asked to link your Mein ELSTER user account the first time you start the receipt scan. There are two options available to you here. The login option with the certificate file or login with the ElsterSecure app. **Login with certificate file** : To do this, please log in to www.elster.de at the same time as your certificate file. Click on \"My user account\" and \"Link meinElster+\" to call up a QR code. Now scan the QR code with MeinElster+ and enter the password for your certificate file. **Registration with ElsterSecure:** (This login option assumes that you have already installed the ElsterSecure app on your mobile device and linked it to a user account). By clicking on \"ElsterSecure\" and then \"Continue with ElsterSecure\", you will be redirected to the selection of user accounts. Now select the user account to which you want to upload vouchers and confirm the process. **Now you are ready for the first scan:** With the app's receipt scan function, you can photograph and collect the receipts you need for your tax return - whether it's a tradesman's invoice, receipt or donation receipt. After saving your document, select the values that could be of interest later for your tax return: These are usually individual items or total amounts. In the categorization, you then add information on the person, assessment year or category to the documents and upload the documents to your Mein ELSTER user account. You can find the uploaded receipts in Mein ELSTER under \"My receipts\".",
+    "language": "en"
+  },
+  {
+    "category": "App MeinElster+",
+    "question": "Can MeinElster+ also be used without a screen lock?",
+    "ground_truth": "To meet the high security requirements of ELSTER, MeinELSTER+ access keys are protected by the smartphone's security mechanism. The keys are closely linked to the method selected to unlock your device. As a result, the access keys cannot be stored securely enough on a device without a screen lock and it is therefore unfortunately not possible to use the app in these cases. ELSTER generally recommends that you do not operate your device without a screen lock.",
+    "language": "en"
+  },
+  {
+    "category": "App MeinElster+",
+    "question": "What do I need to consider when switching to a new device?",
+    "ground_truth": "Please remember to upload all your receipts to your Mein ELSTER receipt memory before changing devices, as these may not be saved in the backup of your device.",
+    "language": "en"
+  },
+  {
+    "category": "App MeinElster+",
+    "question": "What can I do if the text of my voucher is poorly recognized?",
+    "ground_truth": "The integrated text recognition depends on the quality of the photographed document and the exposure situation. **Tips** : * Activate the camera light during recording. * Make sure that the recording is not blurred. * Make sure that the edges for aligning the document have been recognized correctly or correct them. Rotate the document if necessary. * You will get the best results if you smooth out the slip as required. If this is not successful, you can correct incorrectly recognized entries in the input field next to the tick symbol. The integrated text recognition is constantly being improved.",
+    "language": "en"
+  },
+  {
+    "category": "Retrieval of certificates",
+    "question": "What is the pre-filled tax return?",
+    "ground_truth": "The pre-filled tax return is also known as the retrieval of certificates and is a free service offered by the tax administration. The aim of this electronic collection of certificates is to make it easier for you to prepare your income tax return. The tax administration collects data for you in electronic form and makes these certificates available to you. You (or a person authorized by you, e.g. your tax advisor) can thus access the information stored about you by the tax administration and use it for your income tax return if necessary. You can request the retrieval of certificates for other persons (e.g. child, spouse) in Mein ELSTER under \"Forms and services\" - \"Manage certificates\" - \"Certificates for other persons\". Further information can be found in Mein ELSTER under \"User groups\" - \"Private individuals\".",
+    "language": "en"
+  },
+  {
+    "category": "Retrieval of certificates",
+    "question": "What are certificates?",
+    "ground_truth": "You will be provided with the following electronic data and certificates that have been transmitted to the tax administration regarding your person: * Master data stored with the tax authorities (name, address, bank details, religion) * Income tax certificates sent by the employer * Wage replacement benefits (e.g. unemployment benefit, sickness benefit, parental benefit) * Notifications regarding the receipt of pension benefits * Contributions to health and long-term care insurance * Pension expenses (for example Riester or Rürup contracts) * Subsidies and reimbursements from authorities / public bodies (e.g. subsidy for health insurance) * Contributions for capital-forming benefits (VWL / VL) * Investment income with exemption order",
+    "language": "en"
+  },
+  {
+    "category": "Retrieval of certificates",
+    "question": "What are certificates not available to the tax authorities?",
+    "ground_truth": "Receipts, receipts or invoice vouchers are not certificates and cannot be provided by the tax administration.",
+    "language": "en"
+  },
+  {
+    "category": "Retrieval of certificates",
+    "question": "How are certificates retrieved?",
+    "ground_truth": "To use the pre-filled tax return and retrieve the certificates stored for your person, you can use both the services of the tax administration and the services of commercial software providers. You can therefore use a freely selectable Software to display the certificates stored by the tax administration for your person and transfer them to the income tax form.",
+    "language": "en"
+  },
+  {
+    "category": "Retrieval of certificates",
+    "question": "Can I also retrieve certificates from other people?",
+    "ground_truth": "As the protection of tax confidentiality also has top priority with the pre-filled tax return, only you or persons expressly authorized by you - such as your spouse or tax advisor - can retrieve the certificates. The reverse is also true: if you have been expressly authorized, you can retrieve the certificates from your partner, for example. To do this, you must submit a corresponding request in your Mein ELSTER user account or using third-party software. If you are registered with Mein ELSTER with your identification number, submit the application to retrieve certificates for another person, such as your partner, as follows: Under the menu item \"Forms and services\", please select \"Manage certificates\" -> \"Certificates of other persons\" → \"Apply for retrieval authorization\". Then complete the relevant fields (identification number and date of birth of the person concerned) and submit the application.",
+    "language": "en"
+  },
+  {
+    "category": "Retrieval of certificates",
+    "question": "Can I also call up certificates for previous years?",
+    "ground_truth": "You will be provided with the data and certificates of the last 4 years that have been transmitted to the tax administration about your person.",
+    "language": "en"
+  },
+  {
+    "category": "Retrieval of certificates",
+    "question": "How does the other person for whom I want to retrieve certificates authorize me?",
+    "ground_truth": "The person for whom you wish to retrieve certificates will receive a letter by post informing them of your application. This letter also contains the so-called activation code with the note that this must be passed on to you as the applicant if you are to be authorized to retrieve the certificates. You can then use this activation code to activate the retrieval of certificates in Mein ELSTER or in the Software you use. To activate the retrieval authorization in Mein ELSTER, select the \"My retrieval authorizations\" tab in your user account under Forms and services > Manage certificates > Certificates of other persons. Click on the tick symbol next to the open request in the Actions column. Enter the activation code in the following window. If no approval is given within 90 days by entering the activation code, your application will be treated as rejected and you may have to submit a new application. Exception: The person for whom you wish to retrieve the certificates will not receive a letter if they are already registered with Mein ELSTER with their personal identification number. In this case, the person will be informed of your request via Mein ELSTER and can issue the authorization there directly.",
+    "language": "en"
+  },
+  {
+    "category": "Retrieval of certificates",
+    "question": "What do I do with the certificates?",
+    "ground_truth": "You now have the option of viewing the certificates. If you would like to use the Service, you can also transfer the certificates to your income tax return. The data can of course be changed or deleted in the return after it has been transferred. You can prepare your income tax return with Mein ELSTER or with software from commercial software providers. You still have the obligation to check your income tax return for completeness and accuracy. The advantage of the pre-filled tax return is that you no longer have to enter the data, but only check it and add to it if necessary. This also helps to avoid errors when entering the data.",
+    "language": "en"
+  },
+  {
+    "category": "Retrieval of certificates",
+    "question": "What do I do if the certificates displayed are incorrect or incomplete?",
+    "ground_truth": "You can only see what has been transmitted to the tax authorities by your employer or your insurance company, for example. In the event of incorrect or incomplete data, please contact the relevant data provider directly.",
+    "language": "en"
+  },
+  {
+    "category": "Retrieval of certificates",
+    "question": "What advantages do I have?",
+    "ground_truth": "1. The advantage of the pre-filled tax return is that you no longer have to enter the data, but only check it and add to it if necessary. This avoids errors when entering the data. 2. The data is entered in the appropriate fields in the income tax return. This prevents incorrect entries. 3. Convenient additional functions (help function, etc.) make it easier to prepare the tax return. 4. Your entries are checked for plausibility before they are submitted. This reduces the number of queries from your tax office. 5. Thanks to the non-binding tax calculation, you know in advance what refund or additional payment you can expect. 6. With the optional notification data retrieval, you can see any deviations from your declaration at a glance.",
+    "language": "en"
+  },
+  {
+    "category": "Retrieval of certificates",
+    "question": "What is the activation code?",
+    "ground_truth": "The activation code is used to approve the application of another person if the person whose certificates you wish to retrieve has not yet registered with a tax identification number in Mein ELSTER. The activation code is sent by post to the person whose certificates you wish to retrieve. The 12-digit Code (XXXX-XXXX-XXXX) is a one-time code that is only valid for the approval of an application. After receiving the letter, the recipient can decide whether to pass the Code on to the applicant, thereby enabling them to retrieve their certificates. The activation code expires automatically if it is not passed on to the applicant and used within 90 days. To activate the retrieval authorization, select the \"My retrieval authorizations\" tab in your Mein ELSTER user account under Forms and services > Manage certificates > Certificates of other persons. Click on the tick symbol next to the open request in the Actions column. The activation code must be entered in the following window. If you as the applicant receive a message \"Status message for authorizations: Expiry of the application deadline\", then the activation code has not yet been entered by you and the authorization still needs to be activated. The activation code must be entered in Mein ELSTER under the menu item \"Forms and services\" - \"Manage certificates\" - \"Certificates and authorizations of other persons\" in the \"Action\" column by selecting the confirm symbol. After successful activation, the applicant can retrieve the certificates of the other person.",
+    "language": "en"
+  },
+  {
+    "category": "Retrieval of certificates",
+    "question": "How secure is the pre-filled tax return?",
+    "ground_truth": "As the protection of tax confidentiality also has top priority with the pre-filled tax return, only you or persons expressly authorized by you - such as your spouse or tax advisor - can access the data. You transmit your data via the Internet. To protect tax confidentiality, the tax data is transmitted to the tax authorities in encrypted form.",
+    "language": "en"
+  },
+  {
+    "category": "Management of powers of attorney",
+    "question": "What types of proxy are there?",
+    "ground_truth": "The electronic management and transmission of powers of attorney is possible for the following types of proxy holder: * Income tax assistance associations * Other authorized representatives Other proxy holders include: * Relatives within the meaning of § 15 AO * Domestic tax consultants and agricultural accountants who do not participate in the Chamber Proxy Database (K-VDB) * Foreign tax advisors who do not participate in the K-VDB The other proxy holders submit their proxies **without a presumption of authorization**.",
+    "language": "en"
+  },
+  {
+    "category": "Management of powers of attorney",
+    "question": "Which powers of attorney can other proxy holders transmit?",
+    "ground_truth": "The powers of attorney without presumption of authority for other authorized representatives include: * Power of attorney according to the official sample power of attorney for members of the tax advisory professions who do not use the K-VDB of the Federal Chamber of Tax Consultants * Power of attorney for relatives within the meaning of Section 15 AO (e.g. power of attorney of the child for the parents) * Retrieval authorization only for data retrievals without representation/receiving authorization In order to be able to create and transmit powers of attorney as another proxy holder, you must first - if you have not already done so - register with Mein ELSTER using your personal tax IdNr. or tax number. You must then \"Register as a proxy holder\" (to be found after a Login in the \"Forms and services\" > \"Manage proxies\" area). You will then receive confirmation of successful registration as a proxy holder and your proxy holder ID as a message in your inbox in Mein ELSTER. **Note** : If the address of a proxy holder changes, this must also be done using the \"Change proxy holder address data\" function (can be found under \"Manage proxies\" after completing registration as a proxy holder). Adjusting the address data in the ELSTER user profile alone is not sufficient to transfer the changed address data to transmitted powers of attorney. The current status of the permitted data retrievals can be viewed for each proxy in the \"**Proxy view** \". * The status next to the personal identification number of the principal provides information on the status of the retrieval of certificates, * the status next to the tax account of the principal provides information on the status of the tax account query.",
+    "language": "en"
+  },
+  {
+    "category": "Management of powers of attorney",
+    "question": "Why is the \"Manage powers of attorney\" function not displayed?",
+    "ground_truth": "The \"Manage powers of attorney\" function is not available if you log in with an organization user account and a certificate file. To get the \"Manage authorizations\" button, you can either add ElsterSecure and log in with it or switch to the security stick or signature card as a Login option as part of an access renewal.",
+    "language": "en"
+  },
+  {
+    "category": "Browser settings",
+    "question": "The configuration wizard shows that Cookies are not allowed in my Browser.",
+    "ground_truth": "For security reasons, the use of My ELSTER with a Browser in which Cookies are blocked is prevented. To find out how to activate cookies in your browser, please refer to your browser's documentation or the browser manufacturer's website. It is also possible to allow cookies only for selected websites if you only want to do this for www.elster.de for security reasons. Note: Mein ELSTER only uses temporary cookies, also known as session cookies, which are automatically removed from your computer when you close your browser. These do not contain any personal data, but only the number of your current user session.",
+    "language": "en"
+  },
+  {
+    "category": "Problems when using a Firewall or Proxy",
+    "question": "I use a Firewall or a Proxy and have problems with step 2 of the registration or Login.",
+    "ground_truth": "When using a Microsoft Proxy with NTLM or Windows-integrated authentication, the access protection for access with https (Port 443) to www.elster.de must be removed. When using a Firewall, access to the Host www.elster.de, Port 443, TCP protocol must be enabled.",
+    "language": "en"
+  },
+  {
+    "category": "Problems when using a Firewall or Proxy",
+    "question": "I use Ubuntu Linux, use a Firewall or a Proxy and have problems with step 2 of the registration or login.",
+    "ground_truth": "Under Ubuntu Linux, the log file of the Firewall (for \"Uncomplicated Firewall\" this is /var/log/messages) should be checked. If access to My ELSTER is blocked, you will find information here about which Firewall rule is causing the blockage.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "How long is my certificate valid for?",
+    "ground_truth": "Every electronic certificate has a validity period. The expiry of a certificate is therefore a normal process. The validity period begins when the certificate is issued. For certificate files and security sticks, the validity period begins when the final certificate is issued during step 2 of the registration process. In this case, the certificates are valid for 3 years. The validity period of a signature card usually begins when the card is produced during personalization.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "What should I do if my certificate is about to expire?",
+    "ground_truth": "If you have been notified by your tax program or by Mein ELSTER that your certificate is about to expire, please carry out a Login in Mein ELSTER. During the Logins you will receive important information about the upcoming certificate renewal. Your renewed certificate will be retrieved automatically and you can log in to Mein ELSTER as before. Please note that you must renew your certificate before the expiry date. Otherwise, you will no longer be able to log in after this time and will not be able to renew your certificate. If the validity period of your signature card is about to expire, you can assign a different signature card to your user account. To do this, you will need new activation data before the signature card you have been using expires, which you can request (after Logins) under \"My user account\" > \"Change certificate\". Contact the issuer of your signature card in good time to obtain a replacement card.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "What options are there for changing or renewing the type of Login or certificate?",
+    "ground_truth": "The following table shows the options for renewing or changing your certificate. For technical reasons, not all options can be offered. | From / To  | Certificate file  | Security stick  | Signature card  | | --- | --- | --- | --- | | Certificate file  | Extension  | No change  | No change  | | Security stick  | Change  | Change + extension  | No change  | | Signature card  | Change  | Change  | Change ¹  | ¹ - It is not possible to renew the certificate stored on a signature card. You must purchase a new signature card to make this change. However, the issuer of your previous signature card can usually issue you a new card with a new validity period. You can also switch to a new signature card for authentication from another provider.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "How can I change the type of Logins or my certificate?",
+    "ground_truth": "If you have logged in with a signature card, you can request activation data for your new certificate under \"Forms and services\" and \"Change certificate\". You will receive the activation code in your inbox in My ELSTER and the activation ID will be sent to you by e-mail. Please save the document with the activation code from the inbox to your hard disk. You will need this to complete the process in the public area. If you want to switch to a certificate file, you can complete the certificate change immediately. You can only complete the change to another signature card once you have received it. You can change the type of Logins or certificate in the public area under \"My user account\".",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "Will my user account data or settings be lost when I change the certificate?",
+    "ground_truth": "All user account settings, user details, profiles, drafts and messages in the inbox are retained. No jobs may be in progress at the time the certificate change is carried out. Save the messages received in the inbox on your computer and only then carry out the certificate change.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "Will my user account data or settings be lost if I renew my certificate?",
+    "ground_truth": "If you renew your certificate, all data stored in your user account (drafts, messages in the inbox, settings, profiles) will remain unchanged.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "How do I find out that my certificate is about to expire?",
+    "ground_truth": "You will be notified by My ELSTER by e-mail several weeks before your certificate expires and may also be notified by your tax program. If you use a certificate file or a security stick, you should carry out a Login to Mein ELSTER as soon as possible.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "What do I have to do if I no longer want to be logged in to My ELSTER after my certificate expires?",
+    "ground_truth": "Once a certificate has expired, it is no longer possible to carry out a Login in My ELSTER with this certificate. You will initially no longer have access to your data in the private area. To be able to use My ELSTER again, you must renew your access. New activation data will be sent to you (by post and e-mail) and you will receive a new certificate after entering this data. With this new certificate, you can now log back into your user account as usual. User accounts are not automatically deleted when a certificate expires.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "Do authorizations change when changing the type of Logins?",
+    "ground_truth": "Please note that the tax account query and the necessary application for activation of the tax account query is only possible with a signature card. If you switch from a signature card to a certificate file, for example, these services are therefore no longer available. For details on the authorizations of the individual Login options, please refer to the section \"Which registration type is right for me?\".",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "Do authorizations change when the certificate is renewed?",
+    "ground_truth": "When a certificate is renewed, no authorizations change for the certificate file and security stick. With a signature card, it is not possible to renew the stored certificate. You must purchase a new signature card and change the certificate registered with My ELSTER.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "How long is the activation data valid for changing the type of Login or certificate?",
+    "ground_truth": "It is advisable to complete the switch as soon as possible. For technical reasons, we cannot guarantee that the activation data will be valid for longer than 30 days.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "Can the switch from a signature card to a security stick or certificate file be reversed?",
+    "ground_truth": "The change from a signature card to a security stick or a certificate file cannot be reversed. If you want to use a signature card again in the future, you will need to re-register. However, it is possible to switch directly from one signature card to another without re-registering.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "What should I bear in mind when importing the renewed certificate? (Certificate file only)",
+    "ground_truth": "1. save new certificate During the certificate renewal process, you will be offered a new certificate file for Download. The generated certificate file should be saved. If you are using your Browser with the default settings, your certificate will be saved in the Download directory set in the Browsers. If a file with the same name already exists in the Download directory, the file name of the new certificate file is given a sequential number by the Browsers so as not to overwrite the existing file. If you have set the option to manually select the storage location in the Download settings of the Browsers, a browser dialog opens and you can select the storage location yourself. The \"Open\" option must not be selected here. 2. move the file to a directory of your choice and note the storage location 3. Update existing copies as well When the certificate file renewal is complete, the previous certificate file (pfx file) and its copies will no longer be functional. You must replace them with copies of your new pfx file. We strongly recommend that you make a backup copy of the new certificate file and keep it in a safe place.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "How does the import of the renewed certificate work? (Certificate file only)",
+    "ground_truth": "If you click on the \"Renew certificate\" button, you will be offered the renewed certificate as a new pfx file for Download after entering your password. You should then log in immediately with the renewed certificate. If, contrary to expectations, errors occur after clicking on the \"Renew certificate\" button, this is no cause for concern. In any case, you can either log in with your previous pfx file or with the already updated pfx file. Try the updated pfx file first. If this fails, use your previous pfx file and start the renewal process again.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "How can I tell that the import of the renewed certificate was successful? (Certificate file and security stick only)",
+    "ground_truth": "The help area on the right-hand side of the My ELSTER start page shows how long the certificate you have logged in with is still valid. If this date is more than two years in the future, the renewed certificate has been successfully imported.",
+    "language": "en"
+  },
+  {
+    "category": "Type of Logins - Change of certificate / certificate renewal",
+    "question": "What about the mailbox messages and tasks that were encrypted with the old certificate? (Certificate file and security stick only)",
+    "ground_truth": "The keys of your certificate are not changed by importing the renewed certificate. You can continue to read all data that was encrypted with the old certificate and open the saved drafts.",
+    "language": "en"
+  },
+  {
+    "category": "Registration help",
+    "question": "What does \"Login option\" mean?",
+    "ground_truth": "There are currently three ways to register with Mein ELSTER. These differ according to the device or medium used to register the user. Authentication is performed at Login: * Login with certificate file * Login with security stick (interesting e.g. for entrepreneurs) * Login with signature card (interesting e.g. for tax consultants) Technical information on the individual processes can be found at Data security/security technology.",
+    "language": "en"
+  },
+  {
+    "category": "Registration help",
+    "question": "Which Login option is right for me?",
+    "ground_truth": "You should first check which tax processes you would like to process with Mein ELSTER before deciding on a Login option. You can find more information on the tax processes offered under \"Forms/Services\". The technical equipment of your computer is also crucial. You need the following for * ElsterSecure app: Mobile device (Android or iOS) * Certificate file: no additional Hardware * Security stick: a security stick (Online-Shop) and USB connection * Signature card: a supported signature card and a card reader Technical information on the individual processes can be found at Data security and IT security.",
+    "language": "en"
+  },
+  {
+    "category": "Registration help",
+    "question": "When should I register \"For a private individual\"?",
+    "ground_truth": "Once you have registered, you can use the valid certificate to submit tax returns for yourself and other people (e.g. spouses/partners) and use other Mein ELSTER services. Even if you have to submit different tax returns (e.g. VAT return and income tax return), one registration is sufficient. This type of registration is recommended for the following applications: * You would like to submit tax returns and declarations for yourself (and your spouse / partner, if applicable) * You would like to retrieve your personal income tax deduction details * You operate a photovoltaic system You will need your personal tax identification number during the registration process.",
+    "language": "en"
+  },
+  {
+    "category": "Registration help",
+    "question": "When should I register \"For an organization\"?",
+    "ground_truth": "This type of registration is recommended for the following applications: * You would like to submit tax returns and registrations for a company or organization (e.g. GbR, OHG, GmbH, association) * You are a sole trader or solo self-employed and would like to apply for tax relief or \"corona aid\" for your business activities * You would like to register / deregister / transfer employees with ELStAM or retrieve the ELStAM data of the company's employees * You are a member of a tax advisory profession and would like to apply for authorizations to retrieve certificates for more than 20 people (not possible with the \"Certificate file\" Login option) In the further course of registration, you will need the tax number under which the company is registered with the tax office. **Information on the electronic income tax card ( ELStAM) is not supported for identification with a tax number.**",
+    "language": "en"
+  },
+  {
+    "category": "Registration help",
+    "question": "What do I have to bear in mind when registering if I want to retrieve certificates later (pre-filled tax return)?",
+    "ground_truth": "When registering \"For a private individual\", authorizations can only be requested for a maximum of 20 other persons. This restriction does not apply to a registration \"For an organization\".",
+    "language": "en"
+  },
+  {
+    "category": "Registration help",
+    "question": "Where can I enter the activation ID and code to complete my registration?",
+    "ground_truth": "Follow the link in the e-mail in which you received the activation ID. If you have only noted the activation ID and then deleted the e-mail, you can use the following link: Input page for activation data",
+    "language": "en"
+  },
+  {
+    "category": "Registration help",
+    "question": "Can I register with Mein ELSTER if I have not yet reached the age of 18?",
+    "ground_truth": "For legal reasons, registration is only possible once you have reached the age of 18.",
+    "language": "en"
+  },
+  {
+    "category": "Registration help",
+    "question": "I have completed step 2 of the registration process. Where can I find the certificate file?",
+    "ground_truth": "The Download function of the Browsers is used to save the certificate file. Your certificate file is saved in the Browsers download directory in a file with the extension .pfx or .PFX. The default setting for the download directory for most Browsers is the \"Downloads\" subdirectory of the home directory (e.g. C:\\users\\<user ID> under Windows). However, you can change the setting for the download directory of your Browsers in the Browser settings. If you cannot find the certificate file in the Download directory, please carry out step 2 of the registration process again. If you are using the Internet Explorer browser, please make sure to explicitly save the certificate file by clicking on \"Save\" after the key generation when the browser displays the message \"Do you want to open or save from \"www.elster.de\"?\". If you have previously clicked on \"Open\" or \"Cancel\", please repeat step 2 of the registration process and click on \"Save\" after the key has been generated.",
+    "language": "en"
+  },
+  {
+    "category": "Questions about Login with ID card",
+    "question": "What are the advantages of Login with an ID card?",
+    "ground_truth": "There is no need to send the activation ID by e-mail or the activation Code by post. You no longer have to wait several days for the activation Code to be sent and you will receive a user account within a few minutes.",
+    "language": "en"
+  },
+  {
+    "category": "Questions about Login with ID card",
+    "question": "What requirements must be met for a Login with an ID card?",
+    "ground_truth": "Login with an ID card requires that the Online ID function is activated and that you have replaced the associated activation PIN (transport PIN) with a PIN you have assigned yourself. Only then will your ID card be activated. You will also need a suitable ID card reader and a certified driver. Further details on the ID card can be found on the website <http://www.personalausweisportal.de>. Note on activation: Unfortunately, it is not possible to activate your ID card in My ELSTER. Please contact the authority responsible for you (municipality or district administration department). You can also activate your ID card using the AusweisApp. You can find more information about the AusweisApp at https://www.ausweisapp.bund.de.",
+    "language": "en"
+  },
+  {
+    "category": "Questions about Login with ID card",
+    "question": "Is it possible to login with the new ID card?",
+    "ground_truth": "Yes, it is now possible to use your ID card for Login. No additional certificate file is required.",
+    "language": "en"
+  },
+  {
+    "category": "Questions about Login with ID card",
+    "question": "I am asked to enter the CAN when I Login with my ID card after entering the wrong PIN twice. Where can I find this?",
+    "ground_truth": "When using the ID card, the PIN can be entered incorrectly twice in succession. If it is necessary to enter the PIN a third time, it must be activated by entering the access number (CAN) first. The access number (CAN) is printed on the front of the new ID card to the right of the validity date.",
+    "language": "en"
+  },
+  {
+    "category": "Questions about Login with ID card",
+    "question": "I have entered the eID PIN of my ID card incorrectly three times in a row. The online ID function is blocked. How can I unblock the online ID function again?",
+    "ground_truth": "When Login with an ID card, the Online ID function is blocked if the eID PIN has been entered incorrectly three times in a row. To unblock the online ID function again, you will need your PUK, which Bundesdruckerei has sent you by post. Please note that it is unfortunately not possible to unblock the function using the PUK in My ELSTER. Please contact the authority responsible for you (municipality or district administration department). You can also use the AusweisApp to reactivate your ID card using the PUK. You can find more information about the AusweisApp at https://www.ausweisapp.bund.de.",
+    "language": "en"
+  },
+  {
+    "category": "Questions about Login with ID card",
+    "question": "Can I change the eID PIN on my ID card?",
+    "ground_truth": "Unfortunately, it is not possible to change the eID PIN of your ID card in My ELSTER. To do this, please contact the authority responsible for you (municipality or district administration department). You can also change the eID PIN of your ID card using the AusweisApp. You can find more information about the AusweisApp at https://www.ausweisapp.bund.de.",
+    "language": "en"
+  },
+  {
+    "category": "Questions about Login with ID card",
+    "question": "Is it possible to Login with an electronic residence permit?",
+    "ground_truth": "Yes, my ELSTER supports the electronic residence permit (eAufenthaltstitel). Further information on the electronic residence permit can be found at http://www.bamf.de/DE/Willkommen/Aufenthalt/eAufenthaltstitel/e-aufenthaltstitel-node.html.",
+    "language": "en"
+  },
+  {
+    "category": "Help with registration in special cases where there is no classification criterion (e.g.: German tax number, identification number)",
+    "question": "As a data transmitter without a valid domestic classification criterion, can I transmit data in an authenticated manner?",
+    "ground_truth": "A certificate for an organization is required for electronic authentication. This must be acquired in the course of registration with Mein ELSTER or, in the case of selected signature cards, registered with Mein ELSTER. A valid domestic classification criterion is mandatory for registration. Persons, companies, communities or institutions that do not have a valid domestic classification criterion can apply for this classification criterion in the form of a tax number from the Neubrandenburg - RAB tax office.",
+    "language": "en"
+  },
+  {
+    "category": "Help with registration in special cases where there is no classification criterion (e.g.: German tax number, identification number)",
+    "question": "For which persons/cases is the Neubrandenburg - RAB tax office responsible?",
+    "ground_truth": "The Neubrandenburg - RAB tax office is responsible for all applications for the allocation of a missing classification criterion for the purpose of registration with Mein ELSTER. One example is mentioned here: * Agents working abroad on behalf of domestic taxpayers (e.g. foreign tax consultants) or foreign owners of a property located in Germany who wish to transmit data in an authenticated manner but do not have a domestic tax number. * Domestic authorities who wish to transmit authenticated data but do not have a domestic tax number. * Communities of owners that do not have a domestic tax number but must transmit data to the SV-Meldeportal.",
+    "language": "en"
+  },
+  {
+    "category": "Help with registration in special cases where there is no classification criterion (e.g.: German tax number, identification number)",
+    "question": "How do I apply for the order criterion (tax number) for the purpose of registering with Mein ELSTER?",
+    "ground_truth": "Fill in the application form below and send it to the Neubrandenburg tax office - RAB. Application for the issue of an order criterion You will then receive a letter from the Neubrandenburg - RAB tax office informing you of the classification criterion (tax number). You can then use this to register for an organization certificate in Mein ELSTER. The number is used exclusively for registration purposes. Data transmissions to the tax office must always be made to the taxpayer's tax number. No tax or tax law checks are carried out when the classification criterion is assigned. Please clarify this with the responsible tax office. Note: The Neubrandenburg - RAB tax office is located in the federal state of Mecklenburg-Vorpommern. Therefore, \"Mecklenburg-Vorpommern\" must be selected as the state when registering in Mein ELSTER.",
+    "language": "en"
+  },
+  {
+    "category": "Help for activating the functions of a fully-fledged user account",
+    "question": "When should I choose identification with a tax identification number?",
+    "ground_truth": "Once you have completed the Upgrade of your user account, you can use the valid certificate to submit tax returns for yourself and other persons (e.g. spouses/partners) and use other My ELSTER services. This identification is also sufficient if you have to submit different tax returns (e.g. VAT return and income tax return). This type of identification is recommended for the following applications: * You would like to submit tax returns and declarations for yourself (and your spouse / partner, if applicable) * You would like to retrieve your personal income tax deduction details * You operate a photovoltaic system You will need your personal tax identification number in the further course of the Upgrade.",
+    "language": "en"
+  },
+  {
+    "category": "Help for activating the functions of a fully-fledged user account",
+    "question": "When should I carry out the identification with tax number?",
+    "ground_truth": "This type of identification is recommended for the following applications: * You would like to submit tax returns and registrations for a company (e.g. GbR, OHG, GmbH, association) * You are a sole trader or solo self-employed and would like to apply for tax relief or \"corona aid\" for your business activities * You would like to register / deregister / transfer employees with ELStAM or retrieve the ELStAM data of company employees * You are a member of a tax advisory profession and would like to apply for authorizations to retrieve certificates for more than 20 people (not possible with the \"Certificate file\" Login option) In the further course of the Upgrade, you will need the tax number under which the company is registered with the tax office. **Information on the electronic income tax card ( ELStAM) is not supported for identification with a tax number.**",
+    "language": "en"
+  },
+  {
+    "category": "Internet export declaration plus",
+    "question": "Where can I submit an Internet Export Declaration Plus (IAA-Plus) electronically?",
+    "ground_truth": "The IAA-Plus can only be accessed via the Customs portal be transmitted electronically. Electronic transmission via the ELSTER portal is not possible.",
+    "language": "en"
+  },
+  {
+    "category": "Internet export declaration plus",
+    "question": "What is an Internet Export Declaration Plus (IAA-Plus)?",
+    "ground_truth": "In connection with the introduction of ATLAS Export (Release 2.0), it has been possible since May 4, 2009 to complete export declarations online on the Internet and submit them with an electronic certificate if the export shipment is declared at a German customs office of export. The customs administration uses the ELSTER certificate, which is already accepted by all federal states for paperless tax declarations, and thus makes it possible to dispense with the signature. With the electronic certificate, customs offices can determine the origin of incoming export declarations and at the same time transmit all customs decisions on the transfer of goods to the export procedure back to the sender. This means that, for the first time, economic operators can process all essential simplifications completely paperless via the Internet. It is no longer necessary to submit a hand-signed export declaration to the customs office of export. Replies from the customs office of export will be sent to the trader.",
+    "language": "en"
+  },
+  {
+    "category": "Internet export declaration plus",
+    "question": "How can I register for electronic transmission of the Internet Export Declaration Plus (IAA-Plus) without authorization data (organization certificate)?",
+    "ground_truth": "Customs also offers the option of assigning a personal tax number via a personal ELSTER certificate to the customs number of the respective organization. This means that an organization that cannot provide authorization data (€0.00 values) can be \"represented\" by dedicated employees with a personal ELSTER certificate and the personal tax number. This must be applied for and recorded using the following customs form: 0870 Participant master data, address entry and notification . The tax number with which the ELSTER certificate was applied for must be entered in field 22. This fulfills the prerequisite for using IAA-Plus and the required condition that the tax number on which the ELSTER certificate is based must be stored in the customs master data in order to establish a connection between the IAA-Plus user and the certificate holder.",
+    "language": "en"
+  },
+  {
+    "category": "Internet export declaration plus",
+    "question": "Where can I get help with technical questions about the Internet Export Declaration Plus (IAA-Plus) or if I have problems using it?",
+    "ground_truth": "If you have technical questions about the IAA-Plus or problems using it, please contact the Service Desk at the Information Technology Center. * Phone: 0800/800-75451 * E-mail: servicedesk@itzbund.de",
+    "language": "en"
+  },
+  {
+    "category": "Property tax return",
+    "question": "Preparation of a corrected property tax return",
+    "ground_truth": "After Login in My ELSTER, click on \"My ELSTER\" on the left-hand side and then on \"My forms\". In the \"Submitted forms\" tab, select the property tax return that has been successfully submitted. In the \"Actions\" column, click on the three dots. Now select \"Transfer this data to new form\". Then click on \"Next\" and \"Start data entry\". You can then correct the relevant data. Once the plausibility check has been successfully completed, you can submit the form to the tax office. Page loads... - Graphic rotating star Data is loaded...",
+    "language": "en"
+  }
+]

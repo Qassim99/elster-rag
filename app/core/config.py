@@ -26,6 +26,9 @@ class Settings(BaseSettings):
     llm_api_key: str = os.getenv("OPENROUTER_API_KEY", "")
     llm_base_url: str = os.getenv("LLM_BASE_URL", "https://openrouter.ai/api/v1")
     llm_model: str = os.getenv("LLM_MODEL", "google/gemini-3-flash-preview")
+    llm_evaluator_model: str = os.getenv(
+        "LLM_EVALUATOR_MODEL", "google/gemini-3-flash-preview"
+    )
     top_k: int = int(os.getenv("RAG_TOP_K", "5"))
     api_port: int = int(os.getenv("RETRIEVAL_API_PORT", "8100"))
 

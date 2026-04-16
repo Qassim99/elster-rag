@@ -1,0 +1,94 @@
+
+============================================================
+  German (de)
+============================================================
+  Total questions : 118
+  Total categories: 22
+  Avg question len: 78 chars
+  Avg answer len  : 558 chars
+  Min answer len  : 71 chars
+  Max answer len  : 2126 chars
+
+  Category                                           Count
+  -------------------------------------------------- -----
+  Art des Logins - Wechsel des Zertifikats / Zert...    16
+  App ElsterSecure                                      13
+  Abruf von Bescheinigungen                             12
+  ElsterAuthenticator                                   10
+  Hilfe zur Registrierung                                8
+  Benutzerkonten                                         7
+  Fragen zum Login mit Personalausweis                   7
+  Allgemeine Fragen zur Nutzung von ELSTER               6
+  App MeinELSTER+                                        6
+  Sicherheitssticks                                      5
+  Technische Fragen                                      4
+  Allgemeines                                            4
+  Internet-Ausfuhranmeldung-Plus                         4
+  Verwaltung von Vollmachten                             3
+  Hilfe zur Registrierung in Sonderfällen bei feh...     3
+  Signaturkarten                                         2
+  Probleme bei Einsatz von Firewall oder Proxy           2
+  Hilfe zur Freischaltung der Funktionen eines vo...     2
+  Umsatzsteuer-Voranmeldung und Lohnsteuer-Anmeldung     1
+  Steuer- und Buchhaltungssoftware mit ELSTER-Fun...     1
+  Einstellungen im Browser                               1
+  Grundsteuererklärung                                   1
+
+============================================================
+  English (en)
+============================================================
+  Total questions : 118
+  Total categories: 22
+  Avg question len: 68 chars
+  Avg answer len  : 497 chars
+  Min answer len  : 76 chars
+  Max answer len  : 1832 chars
+
+  Category                                           Count
+  -------------------------------------------------- -----
+  Type of Logins - Change of certificate / certif...    16
+  ElsterSecure app                                      13
+  Retrieval of certificates                             12
+  ElsterAuthenticator                                   10
+  Registration help                                      8
+  User accounts                                          7
+  Questions about Login with ID card                     7
+  General questions about using ELSTER                   6
+  App MeinElster+                                        6
+  Security sticks                                        5
+  Technical questions                                    4
+  General information                                    4
+  Internet export declaration plus                       4
+  Management of powers of attorney                       3
+  Help with registration in special cases where t...     3
+  Signature cards                                        2
+  Problems when using a Firewall or Proxy                2
+  Help for activating the functions of a fully-fl...     2
+  Advance sales tax return and wage tax return           1
+  Tax and accounting software with ELSTER function       1
+  Browser settings                                       1
+  Property tax return                                    1
+
+============================================================
+  Comparison
+============================================================
+  Questions  — DE: 118, EN: 118
+  Categories — DE: 22, EN: 22
+
+  Category count mismatches:
+    DE: Abruf von Bescheinigungen (12) vs EN: Advance sales tax return and wage tax return (1)
+    DE: Allgemeines (4) vs EN: Browser settings (1)
+    DE: App ElsterSecure (13) vs EN: ElsterAuthenticator (10)
+    DE: App MeinELSTER+ (6) vs EN: ElsterSecure app (13)
+    DE: Art des Logins - Wechsel des Zertifikats / Zertifikatsverlängerung (16) vs EN: General information (4)
+    DE: Benutzerkonten (7) vs EN: General questions about using ELSTER (6)
+    DE: Einstellungen im Browser (1) vs EN: Help for activating the functions of a fully-fledged user account (2)
+    DE: ElsterAuthenticator (10) vs EN: Help with registration in special cases where there is no classification criterion (e.g.: German tax number, identification number) (3)
+    DE: Fragen zum Login mit Personalausweis (7) vs EN: Internet export declaration plus (4)
+    DE: Grundsteuererklärung (1) vs EN: Management of powers of attorney (3)
+    DE: Hilfe zur Registrierung (8) vs EN: Property tax return (1)
+    DE: Hilfe zur Registrierung in Sonderfällen bei fehlendem Ordnungskriterium (z.B.: deutsche Steuernummer, Identifikationsnummer) (3) vs EN: Questions about Login with ID card (7)
+    DE: Internet-Ausfuhranmeldung-Plus (4) vs EN: Registration help (8)
+    DE: Probleme bei Einsatz von Firewall oder Proxy (2) vs EN: Retrieval of certificates (12)
+    DE: Umsatzsteuer-Voranmeldung und Lohnsteuer-Anmeldung (1) vs EN: Type of Logins - Change of certificate / certificate renewal (16)
+    DE: Verwaltung von Vollmachten (3) vs EN: User accounts (7)

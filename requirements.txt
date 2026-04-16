@@ -12,4 +12,6 @@ sentence-transformers
 fastembed
 langgraph
 rouge-score
+bert-score
 nltk
+sentencepiece
