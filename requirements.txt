@@ -5,6 +5,7 @@ langchain-core
 langchain-huggingface
 langchain-openai
 langchain-qdrant
+langchain_text_splitters
 qdrant-client
 openai
 python-dotenv
