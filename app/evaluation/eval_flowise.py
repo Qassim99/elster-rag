@@ -38,8 +38,8 @@ def query(payload):
     return response.json()
 
 
-DATASET_PATH = current_dir / "dataset-de.json"
-RESULTS_PATH = current_dir / "eval_results_test.json"
+DATASET_PATH = current_dir / "dataset-en.json"
+RESULTS_PATH = current_dir / "eval_results_test_en.json"
 
 
 # Load dataset
@@ -139,7 +139,7 @@ def run_evaluation():
     results = []
     category_scores = defaultdict(lambda: defaultdict(list))
 
-    for i, sample in enumerate(dataset[:20]):
+    for i, sample in enumerate(dataset):
         question = sample["question"]
         reference = sample["ground_truth"]
         category = sample.get("category", "Unknown")

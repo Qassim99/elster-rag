@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "pipeline": "local_langgraph_workflow",
+    "judge_model": "google/gemini-3-flash-preview",
+    "dataset": "app/evaluation/dataset-de.json",
+    "total_samples": 1,
+    "failed_samples": 0,
+    "failure_rate": 0.0,
+    "overall": {
+      "total": 1,
+      "failed": 0,
+      "failure_rate": 0.0,
+      "rouge1": 0.4509,
+      "rouge2": 0.2807,
+      "rougeL": 0.3468,
+      "bleu": 0.094,
+      "correctness": 5.0,
+      "completeness": 5.0,
+      "relevance": 5.0
+    },
+    "per_category": {
+      "Allgemeine Fragen zur Nutzung von ELSTER": {
+        "total": 1,
+        "failed": 0,
+        "failure_rate": 0.0,
+        "rouge1": 0.4509,
+        "rouge2": 0.2807,
+        "rougeL": 0.3468,
+        "bleu": 0.094,
+        "correctness": 5.0,
+        "completeness": 5.0,
+        "relevance": 5.0
+      }
+    }
+  },
+  "results": [
+    {
+      "question": "Was ist ELSTER?",
+      "category": "Allgemeine Fragen zur Nutzung von ELSTER",
+      "reference": "ELSTER – die elektronische Steuererklärung – ist ein Verfahren, mit dem Sie unter anderem Ihre Steuererklä­rung elektronisch über das Internet an Ihr Finanzamt übermitteln können. Mein ELSTER: Ihr Online Finanzamt bündelt die Online-Dienstleistungen der Finanzverwaltung. Hier können Sie Ihre elektronische Steuererklärung erstellen und abgeben.",
+      "prediction": "ELSTER ist ein Verfahren für die elektronische Steuererklärung. Hier sind einige wichtige Punkte:\n* ELSTER ermöglicht die elektronische Übermittlung von Steuererklärungen an das Finanzamt über das Internet.\n* Mein ELSTER ist Ihr Online-Finanzamt, das die Online-Dienstleistungen der Finanzverwaltung bündelt.\n* Über Mein ELSTER können Sie Ihre elektronische Steuererklärung erstellen und abgeben.\n* ELSTER bietet weitere Funktionen wie Steuerkontoabfrage, Verwaltung von Vollmachten und Datenaustausch für Kommunen und Institutionen.\n* Für die Nutzung von ELSTER gibt es verschiedene Login-Optionen und Zertifikate, wie den ElsterAuthenticator, der die Nutzung von Mein ELSTER mit Sicherheitsstick und Signaturkarte ermöglicht.\n\n<ui>{\"cards\":[{\"label\":\"Registrierung\",\"prompt\":\"Wie kann ich mich bei ELSTER registrieren?\",\"topic\":\"Registrierung\"}],\"question\":\"Wie kann ich mich bei ELSTER registrieren?\"}</ui>",
+      "failed": false,
+      "rouge": {
+        "rouge1": 0.4509,
+        "rouge2": 0.2807,
+        "rougeL": 0.3468
+      },
+      "bleu": 0.094,
+      "bertscore": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "llm_judge": {
+        "correctness": 5,
+        "completeness": 5,
+        "relevance": 5,
+        "reasoning": "Die generierte Antwort enthält alle Informationen der Referenzantwort und erweitert diese um korrekte Zusatzdetails. Die UI-Elemente am Ende beeinträchtigen die inhaltliche Qualität nicht."
+      }
+    }
+  ]
+}

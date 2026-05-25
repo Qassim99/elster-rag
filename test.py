@@ -1,8 +1,10 @@
+from dotenv import load_dotenv
+from IPython.display import Image, display
+
 from app.core.config import Settings
 from app.infrastructure.llm_provider import LLMProvider
 from app.infrastructure.vector_store import QdrantRepository
-from app.services.workflow_test import RAGWorkflowEngine
-from dotenv import load_dotenv
+from app.services.workflow import RAGWorkflowEngine
 
 load_dotenv()
 # Example usage:
@@ -41,7 +43,11 @@ qdrant_repo.hybrid_search("Wie kann ich mein Benutzerkonto löschen?", top_k=3)
 
 print("==" * 50)
 print("==" * 50)
-rag_engin_test = RAGWorkflowEngine(qdrant_repo, llm_provider)
+rag_engin_test = RAGWorkflowEngine(qdrant_repo, llm_provider, settings)
+# Visualize the workflow graph and save as PNG
+png = rag_engin_test.graph.get_graph().draw_mermaid_png()
+with open("rag_workflow_graph.png", "wb") as f:
+    f.write(png)
 response = rag_engin_test.execute("Wie kann ich mein Benutzerkonto löschen?", [])
 print("RAG Response:")
 print(response)

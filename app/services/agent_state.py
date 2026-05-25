@@ -1,22 +1,28 @@
-from typing import List, TypedDict
+from typing import TYPE_CHECKING, Any, Literal, NotRequired, TypedDict
+
+if TYPE_CHECKING:
+    from langchain_core.documents import Document
+else:
+    Document = Any
 
 
 class AgentState(TypedDict):
     # Inputs
     user_question: str
-    chat_history: List[dict]
+    chat_history: list[dict[str, Any]]
 
     # Updated by Paraphraser
-    paraphrased_question: str
-    language: str
+    paraphrased_question: NotRequired[str]
+    language: NotRequired[str]
 
     # Updated by Routers/Evaluators
-    intent: str  # 'tax', 'off_topic', or 'greeting'
-    context_sufficient: bool  # True if local context is enough
-    is_grounded: bool  # True if web answer doesn't hallucinate
+    intent: NotRequired[Literal["tax", "off_topic", "greeting"]]
+    context_sufficient: NotRequired[bool]  # True if local context is enough
+    is_grounded: NotRequired[bool]  # True if web answer doesn't hallucinate
 
     # Content Pipeline
-    raw_documents: list
-    retrieved_context: str
-    candidate_answer: str
-    final_answer: str
+    sub_questions: NotRequired[list[str]]
+    raw_documents: NotRequired[list[Document]]
+    retrieved_context: NotRequired[str]
+    candidate_answer: NotRequired[str]
+    final_answer: NotRequired[str]
