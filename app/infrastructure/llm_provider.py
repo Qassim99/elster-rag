@@ -2,8 +2,9 @@ from openai import OpenAI
 
 
 class LLMProvider:
-    def __init__(self, settings, is_evaluation: bool = False):
+    def __init__(self, settings, model=None, is_evaluation: bool = False):
         self.settings = settings
+        self.model = model
         self.is_evaluation = is_evaluation
         self.client = None
         if settings.llm_api_key:
@@ -28,7 +29,7 @@ class LLMProvider:
             temperature = 0.0  # Force deterministic output during evaluation
             model = model or self.settings.llm_evaluator_model
         else:
-            model = model or self.settings.llm_model
+            model = model or self.model or self.settings.llm_model
         response = self.client.chat.completions.create(
             model=model,
             messages=messages,

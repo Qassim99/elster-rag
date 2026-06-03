@@ -30,6 +30,7 @@ from app.infrastructure.vector_store import QdrantRepository
 from app.services.workflow import RAGWorkflowEngine
 
 JUDGE_MODEL = "google/gemini-3-flash-preview"
+MODEL = "qwen/qwen3-32b"
 JUDGE_MAX_ATTEMPTS = 4
 JUDGE_BACKOFF_SECONDS = (5, 15, 45, 90)
 
@@ -38,6 +39,12 @@ _BERT_SCORERS: dict[str, BERTScorer] = {}
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Evaluate the local RAG workflow.")
+    parser.add_argument(
+        "--model",
+        type=str,
+        default=MODEL,
+        help="LLM model to use for the workflow (overrides config).",
+    )
     parser.add_argument(
         "--dataset",
         type=Path,
@@ -350,8 +357,7 @@ def run_evaluation() -> None:
     print(f"Pipeline: {summary['pipeline']}")
     print(f"Samples:  {summary['total_samples']}")
     print(
-        f"Failed:   {summary['failed_samples']} "
-        f"({summary['failure_rate'] * 100:.1f}%)"
+        f"Failed:   {summary['failed_samples']} ({summary['failure_rate'] * 100:.1f}%)"
     )
     print(f"Judge:    {summary['judge_model']}")
     print("\nOverall Scores (failures excluded from metric averages):")
